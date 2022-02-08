@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\CasoplonDeFede.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F22301B2-B970-4AFD-A3A1-99E420BB5215}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CasoplonDeFede.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\CasoplonDeFedeEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{C2C03665-79AA-4248-B915-27A14B038AC5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\CasoplonDeFede">
+      <UniqueIdentifier>{A84FC6BD-9E6F-47A2-A119-8EF31223723B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CasoplonDeFede\CasoplonDeFede.Build.cs">
+      <Filter>Source\CasoplonDeFede</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\CasoplonDeFede\CasoplonDeFede.cpp">
+      <Filter>Source\CasoplonDeFede</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CasoplonDeFede\CasoplonDeFede.h">
+      <Filter>Source\CasoplonDeFede</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CasoplonDeFede\CasoplonDeFedeCharacter.cpp">
+      <Filter>Source\CasoplonDeFede</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CasoplonDeFede\CasoplonDeFedeCharacter.h">
+      <Filter>Source\CasoplonDeFede</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CasoplonDeFede\CasoplonDeFedeGameMode.cpp">
+      <Filter>Source\CasoplonDeFede</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CasoplonDeFede\CasoplonDeFedeGameMode.h">
+      <Filter>Source\CasoplonDeFede</Filter>
+    </ClInclude>
+    <Filter Include="Source\CasoplonDeFede\Private">
+      <UniqueIdentifier>{B4C286B1-BD47-4F57-81F0-FDF03836F8F4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CasoplonDeFede\Private\MyPawn.cpp">
+      <Filter>Source\CasoplonDeFede\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CasoplonDeFede\Private\RobaInput.cpp">
+      <Filter>Source\CasoplonDeFede\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CasoplonDeFede\Private\TestActor.cpp">
+      <Filter>Source\CasoplonDeFede\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\CasoplonDeFede\Public">
+      <UniqueIdentifier>{B0621FE5-5800-4364-9DD3-1857FAE586ED}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\CasoplonDeFede\Public\MyPawn.h">
+      <Filter>Source\CasoplonDeFede\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CasoplonDeFede\Public\RobaInput.h">
+      <Filter>Source\CasoplonDeFede\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CasoplonDeFede\Public\TestActor.h">
+      <Filter>Source\CasoplonDeFede\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

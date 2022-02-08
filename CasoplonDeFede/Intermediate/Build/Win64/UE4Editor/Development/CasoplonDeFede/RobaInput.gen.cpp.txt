@@ -1,0 +1,5 @@
+C:\Users\34682\Documents\Unreal Projects\CasoplonDeFede\Intermediate\Build\Win64\UE4Editor\Development\CasoplonDeFede\Definitions.CasoplonDeFede.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\34682\Documents\Unreal Projects\CasoplonDeFede\Source\CasoplonDeFede/Public/RobaInput.h
+C:\Users\34682\Documents\Unreal Projects\CasoplonDeFede\Intermediate\Build\Win64\UE4Editor\Inc\CasoplonDeFede\RobaInput.generated.h

@@ -1,0 +1,2 @@
+C:\Users\34682\Documents\Unreal Projects\CasoplonDeFede\Intermediate\Build\Win64\UE4Editor\Development\CasoplonDeFede\Definitions.CasoplonDeFede.h
+C:\Users\34682\Documents\Unreal Projects\CasoplonDeFede\Source\CasoplonDeFede\CasoplonDeFede.h

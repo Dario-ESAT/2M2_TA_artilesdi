@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "CasoplonDeFede",
+			"Path": "C:\\Users\\34682\\Documents\\Unreal Projects\\CasoplonDeFede\\Source\\CasoplonDeFede.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "CasoplonDeFedeEditor",
+			"Path": "C:\\Users\\34682\\Documents\\Unreal Projects\\CasoplonDeFede\\Source\\CasoplonDeFedeEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
