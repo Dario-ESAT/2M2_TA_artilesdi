@@ -1,0 +1,3 @@
+C:\Users\artilesdi\Documents\Unreal Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\Definitions.MyProject.h
+C:\Users\artilesdi\Documents\Unreal Projects\MyProject\Source\MyProject\Public\ActorTest.h
+C:\Users\artilesdi\Documents\Unreal Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Inc\MyProject\ActorTest.generated.h
