@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Camara",
+			"Path": "C:\\Users\\34682\\Documents\\Unreal Projects\\Camara\\Source\\Camara.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "CamaraEditor",
+			"Path": "C:\\Users\\34682\\Documents\\Unreal Projects\\Camara\\Source\\CamaraEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
