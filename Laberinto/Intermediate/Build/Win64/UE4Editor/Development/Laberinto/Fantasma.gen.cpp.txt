@@ -1,0 +1,5 @@
+C:\Users\34682\Documents\Unreal Projects\Laberinto\Intermediate\Build\Win64\UE4Editor\Development\Laberinto\Definitions.Laberinto.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\34682\Documents\Unreal Projects\Laberinto\Source\Laberinto/Fantasma.h
+C:\Users\34682\Documents\Unreal Projects\Laberinto\Intermediate\Build\Win64\UE4Editor\Inc\Laberinto\Fantasma.generated.h

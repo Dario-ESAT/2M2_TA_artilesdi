@@ -1,0 +1,5 @@
+﻿  Creating makefile for LaberintoEditor (config setting changed)
+  Parsing headers for LaberintoEditor
+    Running UnrealHeaderTool "C:\Users\artilesdi\Documents\Unreal Projects\Laberinto\Laberinto.uproject" "C:\Users\artilesdi\Documents\Unreal Projects\Laberinto\Intermediate\Build\Win64\LaberintoEditor\Development\LaberintoEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\artilesdi\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  C:/Users/artilesdi/Documents/Unreal Projects/Laberinto/Source/Laberinto/Fantasma.h(20) : LogCompile: Error: Unknown variable specifier 'EditEverywhere'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(45,5): error MSB3073: El comando ""C:\Program Files\Epic Games\UE_4.26\Engine\Build\BatchFiles\Build.bat" LaberintoEditor Win64 Development -Project="C:\Users\artilesdi\Documents\Unreal Projects\Laberinto\Laberinto.uproject" -WaitMutex -FromMsBuild" salió con el código 6.
