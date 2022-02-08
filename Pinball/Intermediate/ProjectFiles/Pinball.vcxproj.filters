@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Pinball.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{17E8A44C-D62D-4659-828C-BB4995896558}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Pinball.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\PinballEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{4FC22A91-EBA2-4C53-B5E5-FD36A05732B3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Pinball">
+      <UniqueIdentifier>{848F07E2-15C7-4362-A79B-BA62B067D643}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Pinball\Ball.cpp">
+      <Filter>Source\Pinball</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Pinball\Ball.h">
+      <Filter>Source\Pinball</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Pinball\FlippersController.cpp">
+      <Filter>Source\Pinball</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Pinball\FlippersController.h">
+      <Filter>Source\Pinball</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Pinball\Pinball.Build.cs">
+      <Filter>Source\Pinball</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Pinball\Pinball.cpp">
+      <Filter>Source\Pinball</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Pinball\Pinball.h">
+      <Filter>Source\Pinball</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Pinball\PinballGameModeBase.cpp">
+      <Filter>Source\Pinball</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Pinball\PinballGameModeBase.h">
+      <Filter>Source\Pinball</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
