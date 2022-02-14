@@ -1,0 +1,1207 @@
+﻿Log file open, 02/13/22 13:04:59
+LogInit: LLM is enabled
+LogInit: LLM CsvWriter: off TraceWriter: off
+LogInit: Display: Running engine for game: Pinball
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.206350
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin SteamVR
+LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.26-CL-15973114
+LogInit: Engine Version: 4.26.2-15973114+++UE4+Release-4.26
+LogInit: Compatible Engine Version: 4.26.0-14830424+++UE4+Release-4.26
+LogInit: Net CL: 14830424
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz, GPU: Intel(R) UHD Graphics
+LogInit: Compiled (64-bit): Apr 12 2021 06:14:10
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.26
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 44
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 43
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 40
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/34682/Documents/Unreal Projects/Pinball/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2022.02.13-12.05.00:178][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2022.02.13-12.05.00:178][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2022.02.13-12.05.00:178][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/34682/Documents/Unreal Projects/Pinball/Saved/Config/Windows/Engine.ini]
+[2022.02.13-12.05.00:178][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2022.02.13-12.05.00:178][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/34682/Documents/Unreal Projects/Pinball/Saved/Config/Windows/Engine.ini]
+[2022.02.13-12.05.00:178][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/34682/Documents/Unreal Projects/Pinball/Saved/Config/Windows/Engine.ini]
+[2022.02.13-12.05.00:179][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2022.02.13-12.05.00:179][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2022.02.13-12.05.00:179][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2022.02.13-12.05.00:179][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2022.02.13-12.05.00:179][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2022.02.13-12.05.00:179][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2022.02.13-12.05.00:179][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2022.02.13-12.05.00:179][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2022.02.13-12.05.00:179][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2022.02.13-12.05.00:179][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2022.02.13-12.05.00:179][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2022.02.13-12.05.00:179][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2022.02.13-12.05.00:179][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2022.02.13-12.05.00:179][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2022.02.13-12.05.00:179][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/34682/Documents/Unreal Projects/Pinball/Saved/Config/Windows/Engine.ini]
+[2022.02.13-12.05.00:179][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2022.02.13-12.05.00:179][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2022.02.13-12.05.00:179][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2022.02.13-12.05.00:179][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2022.02.13-12.05.00:179][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2022.02.13-12.05.00:179][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2022.02.13-12.05.00:179][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2022.02.13-12.05.00:179][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2022.02.13-12.05.00:179][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2022.02.13-12.05.00:179][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2022.02.13-12.05.00:179][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2022.02.13-12.05.00:179][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2022.02.13-12.05.00:179][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2022.02.13-12.05.00:179][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2022.02.13-12.05.00:179][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/34682/Documents/Unreal Projects/Pinball/Saved/Config/Windows/Engine.ini]
+[2022.02.13-12.05.00:179][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/34682/Documents/Unreal Projects/Pinball/Saved/Config/Windows/Engine.ini]
+[2022.02.13-12.05.00:187][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/34682/Documents/Unreal Projects/Pinball/Saved/Config/Windows/Scalability.ini]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/34682/Documents/Unreal Projects/Pinball/Saved/Config/Windows/Scalability.ini]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/34682/Documents/Unreal Projects/Pinball/Saved/Config/Windows/Scalability.ini]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/34682/Documents/Unreal Projects/Pinball/Saved/Config/Windows/Scalability.ini]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/34682/Documents/Unreal Projects/Pinball/Saved/Config/Windows/Scalability.ini]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/34682/Documents/Unreal Projects/Pinball/Saved/Config/Windows/Scalability.ini]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.02.13-12.05.00:187][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/34682/Documents/Unreal Projects/Pinball/Saved/Config/Windows/Scalability.ini]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/34682/Documents/Unreal Projects/Pinball/Saved/Config/Windows/Scalability.ini]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2022.02.13-12.05.00:188][  0]LogInit: Selected Device Profile: [Windows]
+[2022.02.13-12.05.00:188][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.02.13-12.05.00:188][  0]LogHAL: Display: Platform has ~ 16 GB [16954851328 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.02.13-12.05.00:188][  0]LogInit: Going up to parent DeviceProfile []
+[2022.02.13-12.05.00:188][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/34682/Documents/Unreal Projects/Pinball/Saved/Config/Windows/Scalability.ini]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/34682/Documents/Unreal Projects/Pinball/Saved/Config/Windows/Scalability.ini]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/34682/Documents/Unreal Projects/Pinball/Saved/Config/Windows/Scalability.ini]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/34682/Documents/Unreal Projects/Pinball/Saved/Config/Windows/Scalability.ini]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/34682/Documents/Unreal Projects/Pinball/Saved/Config/Windows/Scalability.ini]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.02.13-12.05.00:188][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/34682/Documents/Unreal Projects/Pinball/Saved/Config/Windows/Scalability.ini]
+[2022.02.13-12.05.00:189][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.02.13-12.05.00:189][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.02.13-12.05.00:189][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.02.13-12.05.00:189][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.02.13-12.05.00:189][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.02.13-12.05.00:189][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.02.13-12.05.00:189][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.02.13-12.05.00:189][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.02.13-12.05.00:189][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2022.02.13-12.05.00:189][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.02.13-12.05.00:189][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.02.13-12.05.00:189][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.02.13-12.05.00:189][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.02.13-12.05.00:189][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.02.13-12.05.00:189][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.02.13-12.05.00:189][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.02.13-12.05.00:189][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.02.13-12.05.00:189][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2022.02.13-12.05.00:189][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.02.13-12.05.00:189][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.02.13-12.05.00:189][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.02.13-12.05.00:189][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2022.02.13-12.05.00:189][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.02.13-12.05.00:189][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2022.02.13-12.05.00:189][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.02.13-12.05.00:189][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.02.13-12.05.00:189][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.02.13-12.05.00:189][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/34682/Documents/Unreal Projects/Pinball/Saved/Config/Windows/Scalability.ini]
+[2022.02.13-12.05.00:189][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.02.13-12.05.00:189][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.02.13-12.05.00:189][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/34682/Documents/Unreal Projects/Pinball/Saved/Config/Windows/Scalability.ini]
+[2022.02.13-12.05.00:189][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2022.02.13-12.05.00:189][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2022.02.13-12.05.00:189][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2022.02.13-12.05.00:189][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.02.13-12.05.00:189][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2022.02.13-12.05.00:189][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2022.02.13-12.05.00:189][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2022.02.13-12.05.00:189][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/34682/Documents/Unreal Projects/Pinball/Saved/Config/Windows/Engine.ini]
+[2022.02.13-12.05.00:189][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/34682/Documents/Unreal Projects/Pinball/Saved/Config/Windows/Editor.ini]
+[2022.02.13-12.05.00:189][  0]LogInit: Computer: LAPTOP-2BENSATU
+[2022.02.13-12.05.00:189][  0]LogInit: User: 34682
+[2022.02.13-12.05.00:189][  0]LogInit: CPU Page size=4096, Cores=6
+[2022.02.13-12.05.00:189][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.02.13-12.05.00:189][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2022.02.13-12.05.00:189][  0]LogMemory: Platform Memory Stats for Windows
+[2022.02.13-12.05.00:189][  0]LogMemory: Process Physical Memory: 131.76 MB used, 131.77 MB peak
+[2022.02.13-12.05.00:189][  0]LogMemory: Process Virtual Memory: 110.34 MB used, 110.34 MB peak
+[2022.02.13-12.05.00:189][  0]LogMemory: Physical Memory: 9965.81 MB used,  6203.59 MB free, 16169.41 MB total
+[2022.02.13-12.05.00:189][  0]LogMemory: Virtual Memory: 134210008.00 MB used,  7721.66 MB free, 134217728.00 MB total
+[2022.02.13-12.05.00:193][  0]LogWindows: WindowsPlatformFeatures enabled
+[2022.02.13-12.05.00:225][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2022.02.13-12.05.00:225][  0]LogInit: Overriding language with editor language configuration option (en).
+[2022.02.13-12.05.00:225][  0]LogInit: Overriding language with editor locale configuration option (en).
+[2022.02.13-12.05.00:388][  0]LogInit: Setting process to per monitor DPI aware
+[2022.02.13-12.05.00:396][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.02.13-12.05.00:409][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.02.13-12.05.00:409][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.02.13-12.05.00:531][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.02.13-12.05.00:531][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2022.02.13-12.05.00:531][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2022.02.13-12.05.00:531][  0]LogD3D11RHI: D3D11 adapters:
+[2022.02.13-12.05.00:627][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060' (Feature Level 11_0)
+[2022.02.13-12.05.00:627][  0]LogD3D11RHI:       5980/0/8084 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2022.02.13-12.05.00:665][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics' (Feature Level 11_0)
+[2022.02.13-12.05.00:665][  0]LogD3D11RHI:       128/0/8084 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2022.02.13-12.05.00:666][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.02.13-12.05.00:666][  0]LogD3D11RHI:       0/0/8084 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.02.13-12.05.00:667][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.02.13-12.05.00:672][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.02.13-12.05.00:672][  0]LogD3D11RHI:     GPU DeviceId: 0x1f15 (for the marketing name, search the web for "GPU Device Id")
+[2022.02.13-12.05.00:672][  0]LogWindows: EnumDisplayDevices:
+[2022.02.13-12.05.00:672][  0]LogWindows:    0. 'Intel(R) UHD Graphics' (P:1 D:1)
+[2022.02.13-12.05.00:672][  0]LogWindows:    1. 'Intel(R) UHD Graphics' (P:0 D:0)
+[2022.02.13-12.05.00:672][  0]LogWindows:    2. 'Intel(R) UHD Graphics' (P:0 D:0)
+[2022.02.13-12.05.00:673][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2022.02.13-12.05.00:673][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2022.02.13-12.05.00:673][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2022.02.13-12.05.00:673][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2022.02.13-12.05.00:673][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2022.02.13-12.05.00:673][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060
+[2022.02.13-12.05.00:673][  0]LogD3D11RHI:   Driver Version: 496.76 (internal:30.0.14.9676, unified:496.76)
+[2022.02.13-12.05.00:673][  0]LogD3D11RHI:      Driver Date: 11-9-2021
+[2022.02.13-12.05.00:673][  0]LogRHI: Texture pool is 4186 MB (70% of 5980 MB)
+[2022.02.13-12.05.00:725][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2022.02.13-12.05.00:726][  0]LogD3D11RHI: Async texture creation enabled
+[2022.02.13-12.05.00:726][  0]LogD3D11RHI: Array index from any shader is supported
+[2022.02.13-12.05.00:753][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2022.02.13-12.05.00:754][  0]LogRHI: GeForceNow SDK initialized: 1
+[2022.02.13-12.05.01:014][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2022.02.13-12.05.01:032][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2022.02.13-12.05.01:032][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2022.02.13-12.05.01:032][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2022.02.13-12.05.01:032][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2022.02.13-12.05.01:032][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2022.02.13-12.05.01:032][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2022.02.13-12.05.01:032][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2022.02.13-12.05.01:032][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2022.02.13-12.05.01:032][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2022.02.13-12.05.01:032][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2022.02.13-12.05.01:050][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2022.02.13-12.05.01:050][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2022.02.13-12.05.01:059][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2022.02.13-12.05.01:065][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2022.02.13-12.05.01:072][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2022.02.13-12.05.01:079][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2022.02.13-12.05.01:086][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2022.02.13-12.05.01:093][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2022.02.13-12.05.01:100][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2022.02.13-12.05.01:120][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2022.02.13-12.05.01:120][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2022.02.13-12.05.01:127][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2022.02.13-12.05.01:134][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2022.02.13-12.05.01:142][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2022.02.13-12.05.01:149][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2022.02.13-12.05.01:165][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2022.02.13-12.05.01:165][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2022.02.13-12.05.01:172][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2022.02.13-12.05.01:180][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2022.02.13-12.05.01:188][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2022.02.13-12.05.01:196][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2022.02.13-12.05.01:196][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.02.13-12.05.01:201][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.02.13-12.05.01:251][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2022.02.13-12.05.01:251][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../../Users/34682/Documents/Unreal Projects/Pinball/Intermediate/Shaders/WorkingDirectory/5800/).
+[2022.02.13-12.05.01:251][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/34682/AppData/Local/Temp/UnrealShaderWorkingDir/ABDB2FD943C231038FBAB4814A6B267C/'.
+[2022.02.13-12.05.01:252][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2022.02.13-12.05.01:252][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.02.13-12.05.01:985][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.02.13-12.05.02:045][  0]LogDerivedDataCache: Loaded boot cache 0.06s 77MB C:/Users/34682/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2022.02.13-12.05.02:045][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/34682/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc
+[2022.02.13-12.05.02:045][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/34682/Documents/Unreal Projects/Pinball/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.02.13-12.05.02:045][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.02.13-12.05.02:045][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/34682/Documents/Unreal Projects/Pinball/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.02.13-12.05.02:045][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.02.13-12.05.02:057][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.02.13-12.05.02:057][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.02.13-12.05.02:057][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2022.02.13-12.05.02:067][  0]LogDerivedDataCache: Speed tests for C:/Users/34682/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.01 seconds
+[2022.02.13-12.05.02:068][  0]LogDerivedDataCache: Display: Performance to C:/Users/34682/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.02ms. RandomReadSpeed=1571.75MBs, RandomWriteSpeed=102.01MBs. Assigned SpeedClass 'Local'
+[2022.02.13-12.05.02:069][  0]LogDerivedDataCache: Using Local data cache path C:/Users/34682/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.02.13-12.05.02:069][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.02.13-12.05.02:069][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2022.02.13-12.05.02:118][  0]LogSlate: Using FreeType 2.10.0
+[2022.02.13-12.05.02:118][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.02.13-12.05.02:137][  0]LogAssetRegistry: FAssetRegistry took 0.0023 seconds to start up
+[2022.02.13-12.05.02:341][  0]LogInit: Selected Device Profile: [Windows]
+[2022.02.13-12.05.02:341][  0]LogInit: Active device profile: [000002139AAFAD00][000002139A169200 49] Windows
+[2022.02.13-12.05.02:341][  0]LogInit: Profiles: [000002139AAFAD00][000002139A169200 49] Windows, [000002139AAD5500][000002139A171380 49] WindowsNoEditor, [000002139AAF9500][000002139A16D4C0 49] WindowsServer, [000002139AAD6500][000002139A175600 49] WindowsClient, [000002139AAFA400][000002139A179740 49] IOS, [000002139AAD5300][000002139A17D880 49] iPadAir, [000002139AAF9D00][000002139A185A00 49] iPadAir2, [000002139AA87E00][000002139A18DCC0 49] IPadPro, [000002139AA87F00][000002139A189D00 49] iPadAir3, [000002139AAF8900][000002139A1901C0 49] iPadAir4, [000002139AA85A00][000002139A194340 49] iPadMini2, [000002139AAFA900][000002139A1984C0 49] iPadMini3, [000002139AA87A00][000002139A19C640 49] iPadMini4, [000002139AAF9600][000002139A1A07C0 49] iPadMini5, [000002139AAE7700][000002139A1A8A80 49] iPhone6, [000002139AAE7800][000002139A1A4AC0 49] iPodTouch6, [000002139AA85B00][000002139A1B0D80 49] iPhone7, [000002139AA85C00][000002139A1ACDC0 49] iPodTouch7, [000002139AAE5900][000002139A1B4F40 49] iPhone5S, [000002139AA86B00][000002139A1B90C0 49] iPhone6Plus, [000002139AAE7B00][000002139A1BD240 49] iPhone6S, [000002139AA86700][000002139B1D13C0 49] iPhone6SPlus, [000002139AAE5500][000002139B1D5540 49] iPhone7Plus, [000002139AA86D00][000002139A181680 49] iPhoneSE, [000002139AAE5C00][000002139B1D97C0 49] iPhone8, [000002139AA86400][000002139B1DD900 49] iPhone8Plus, [000002139AAE7C00][000002139B1E5A80 49] iPhoneX, [000002139AA84F00][000002139B1E9C00 49] iPhoneXS, [000002139AAE5D00][000002139B1EC0C0 49] iPhoneXSMax, [000002139AA85000][000002139B1F0240 49] iPhoneXR, [000002139AAE6500][000002139B1F43C0 49] iPhone11, [000002139AA84300][000002139B1F8540 49] iPhone11Pro, [000002139AAE7A00][000002139B1FC6C0 49] iPhone11ProMax, [000002139AA87800][000002139B200840 49] iPhoneSE2, [000002139AAE5200][000002139B2049C0 49] iPhone12Mini, [000002139AA87100][000002139B208B40 49] iPhone12, [000002139AAE4400][000002139B20CCC0 49] iPhone12Pro, [000002139AA86800][000002139B210E40 49] iPhone12ProMax, [000002139AAE7400][000002139B214FC0 49] iPadPro105, [000002139AA84400][000002139B219140 49] iPadPro129, [000002139AAE4B00][000002139B21D2C0 49] iPadPro97, [000002139AA86100][000002139B221440 49] iPadPro2_129, [000002139AAE6700][000002139B2255C0 49] iPad5, [000002139AA84600][000002139B1E1700 49] iPad6, [000002139AAE7D00][000002139B229840 49] iPad7, [000002139AA84E00][000002139B22D980 49] iPad8, [000002139AAE7300][000002139B231AC0 49] iPadPro11, [000002139AA87000][000002139B239C40 49] iPadPro2_11, [000002139AAE6600][000002139B23C100 49] iPadPro3_129, [000002139AA86C00][000002139B240280 49] iPadPro4_129, [000002139AAE5300][000002139B244400 49] AppleTV, [000002139AA85100][000002139B248580 49] AppleTV4K, [000002139AAE4900][000002139B24C700 49] TVOS, [000002139AA84100][000002139B250880 49] Mac, [000002139AAD4E00][000002139B254A00 49] MacClient, [000002139AB5CB00][000002139B258B80 49] MacNoEditor, [000002139AAD7B00][000002139B25CD00 49] MacServer, [000002139AB5C400][000002139B260E80 49] Linux, [000002139AAD6D00][000002139B265000 49] LinuxAArch64, [000002139AB5C100][000002139B269180 49] LinuxNoEditor, [000002139AAD6300][000002139B26D300 49] LinuxAArch64NoEditor, [000002139AB5D600][000002139B271480 49] LinuxClient, [000002139AAD6900][000002139B275600 49] LinuxAArch64Client, [000002139AB5C200][000002139B235740 49] LinuxServer, [000002139AAD7600][000002139B279880 49] LinuxAArch64Server, [000002139AA87900][000002139B27D9C0 49] Android, [000002139AAD4100][000002139B281B00 49] Android_Low, [000002139AA84500][000002139B289C80 49] Android_Mid, [000002139AAD4C00][000002139B28C140 49] Android_High, [000002139AA86300][000002139B2902C0 49] Android_Default, [000002139AAD6800][000002139B294440 49] Android_Adreno4xx, [000002139AA84C00][000002139B2985C0 49] Android_Adreno5xx_Low, [000002139AAD4600][000002139B29C740 49] Android_Adreno5xx, [000002139AA87500][000002139B2A08C0 49] Android_Adreno6xx, [000002139AAD7900][000002139B2A4A40 49] Android_Adreno6xx_Vulkan, [000002139AA87600][000002139B2A8BC0 49] Android_Mali_T6xx, [000002139AAD4B00][000002139B2ACD40 49] Android_Mali_T7xx, [000002139AA87200][000002139B2B0EC0 49] Android_Mali_T8xx, [000002139AAD4700][000002139B2B5040 49] Android_Mali_G71, [000002139AA86500][000002139B2B91C0 49] Android_Mali_G72, [000002139AAD5B00][000002139B2BD340 49] Android_Mali_G72_Vulkan, [000002139AA85700][000002139B2C14C0 49] Android_Mali_G76, [000002139AAD4500][000002139B2C5640 49] Android_Mali_G76_Vulkan, [000002139AA84200][000002139B2C97C0 49] Android_Mali_G77, [000002139AAD4300][000002139B285900 49] Android_Mali_G77_Vulkan, [000002139AA85E00][000002139B2CDA40 49] Android_Vulkan_SM5, [000002139AAD7800][000002139B2D1B80 49] Android_PowerVR_G6xxx, [000002139AA85300][000002139B2D9D00 49] Android_PowerVR_GT7xxx, [000002139AAD5700][000002139B2DC1C0 49] Android_PowerVR_GE8xxx, [000002139AA87C00][000002139B2E0340 49] Android_PowerVR_GM9xxx, [000002139AAD6000][000002139B2E44C0 49] Android_PowerVR_GM9xxx_Vulkan, [000002139AA86600][000002139B2E8640 49] Android_TegraK1, [000002139AAD6F00][000002139B2EC7C0 49] Android_Unknown_Vulkan, [000002139AA86000][000002139B2F0940 49] Lumin, [000002139AAF9C00][000002139B2F4AC0 49] Lumin_Desktop, [000002139AAE6900][000002139B2F8C40 49] HoloLens, 
+[2022.02.13-12.05.02:431][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.02.13-12.05.02:431][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.02.13-12.05.02:431][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.02.13-12.05.02:431][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.02.13-12.05.02:431][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.02.13-12.05.02:443][  0]LogNetVersion: Pinball 1.0.0, NetCL: 14830424, EngineNetVer: 16, GameNetVer: 0 (Checksum: 3941802936)
+[2022.02.13-12.05.02:798][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2022.02.13-12.05.02:834][  0]LogPackageLocalizationCache: Processed 22 localized package path(s) for 1 prioritized culture(s) in 0.034715 seconds
+[2022.02.13-12.05.02:838][  0]LogUObjectArray: 16831 objects as part of root set at end of initial load.
+[2022.02.13-12.05.02:838][  0]LogUObjectAllocator: 4209728 out of 0 bytes used by permanent object pool.
+[2022.02.13-12.05.02:838][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.02.13-12.05.03:134][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.02.13-12.05.03:139][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.02.13-12.05.03:209][  0]SourceControl: Source control is disabled
+[2022.02.13-12.05.03:209][  0]SourceControl: Source control is disabled
+[2022.02.13-12.05.03:211][  0]SourceControl: Source control is disabled
+[2022.02.13-12.05.03:214][  0]SourceControl: Source control is disabled
+[2022.02.13-12.05.03:221][  0]SourceControl: Source control is disabled
+[2022.02.13-12.05.03:269][  0]LogUProjectInfo: Found projects:
+[2022.02.13-12.05.03:403][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.02.13-12.05.03:418][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.02.13-12.05.03:418][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.02.13-12.05.03:454][  0]LogCollectionManager: Loaded 0 collections in 0.000491 seconds
+[2022.02.13-12.05.03:473][  0]LogFileCache: Scanning file cache for directory 'C:/Users/34682/Documents/Unreal Projects/Pinball/Saved/Collections/' took 0.00s
+[2022.02.13-12.05.03:473][  0]LogFileCache: Scanning file cache for directory 'C:/Users/34682/Documents/Unreal Projects/Pinball/Content/Developers/34682/Collections/' took 0.00s
+[2022.02.13-12.05.03:473][  0]LogFileCache: Scanning file cache for directory 'C:/Users/34682/Documents/Unreal Projects/Pinball/Content/Collections/' took 0.00s
+[2022.02.13-12.05.03:473][  0]LogOcInput: OculusInput pre-init called
+[2022.02.13-12.05.03:483][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2022.02.13-12.05.03:483][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2022.02.13-12.05.03:523][  0]LogEngine: Initializing Engine...
+[2022.02.13-12.05.03:524][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.02.13-12.05.03:524][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2022.02.13-12.05.03:524][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2022.02.13-12.05.03:619][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.02.13-12.05.03:625][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.02.13-12.05.03:633][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2022.02.13-12.05.03:635][  0]LogAudio: Display: Audio Device Manager Initialized
+[2022.02.13-12.05.03:635][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2022.02.13-12.05.03:635][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.13-12.05.03:635][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.13-12.05.03:635][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.13-12.05.03:635][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.13-12.05.03:635][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.13-12.05.03:635][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.13-12.05.03:635][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.13-12.05.03:635][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.13-12.05.03:635][  0]LogAudio: Display: Using built-in audio occlusion.
+[2022.02.13-12.05.03:635][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.13-12.05.03:649][  0]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.13-12.05.03:649][  0]LogAudioMixer: Display: 1: FrontRight
+[2022.02.13-12.05.03:649][  0]LogAudioMixer: Display: 2: FrontCenter
+[2022.02.13-12.05.03:649][  0]LogAudioMixer: Display: 3: LowFrequency
+[2022.02.13-12.05.03:649][  0]LogAudioMixer: Display: 4: BackLeft
+[2022.02.13-12.05.03:649][  0]LogAudioMixer: Display: 5: BackRight
+[2022.02.13-12.05.03:649][  0]LogAudioMixer: Display: 6: SideLeft
+[2022.02.13-12.05.03:649][  0]LogAudioMixer: Display: 7: SideRight
+[2022.02.13-12.05.03:678][  0]LogAudioMixer: Display: Using Audio Device Altavoces (7.1 Surround Sound)
+[2022.02.13-12.05.03:683][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.13-12.05.03:684][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.13-12.05.03:684][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.13-12.05.03:685][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.13-12.05.03:685][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.02.13-12.05.03:685][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2022.02.13-12.05.03:686][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.02.13-12.05.03:686][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.02.13-12.05.03:686][  0]LogInit: FAudioDevice initialized.
+[2022.02.13-12.05.03:686][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2022.02.13-12.05.03:686][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.02.13-12.05.03:735][  0]LogDerivedDataCache: Saved boot cache 0.05s 77MB C:/Users/34682/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2022.02.13-12.05.03:738][  0]LogInit: Texture streaming: Enabled
+[2022.02.13-12.05.03:748][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.26.2-15973114+++UE4+Release-4.26
+[2022.02.13-12.05.03:751][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.02.13-12.05.03:751][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2022.02.13-12.05.03:752][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2022.02.13-12.05.03:773][  0]LogInit: Transaction tracking system initialized
+[2022.02.13-12.05.03:789][  0]BlueprintLog: New page: Editor Load
+[2022.02.13-12.05.03:843][  0]LocalizationService: Localization service is disabled
+[2022.02.13-12.05.03:861][  0]TimingProfiler: Initialize
+[2022.02.13-12.05.03:862][  0]TimingProfiler: OnSessionChanged
+[2022.02.13-12.05.03:862][  0]LoadingProfiler: Initialize
+[2022.02.13-12.05.03:862][  0]LoadingProfiler: OnSessionChanged
+[2022.02.13-12.05.03:862][  0]NetworkingProfiler: Initialize
+[2022.02.13-12.05.03:862][  0]NetworkingProfiler: OnSessionChanged
+[2022.02.13-12.05.03:862][  0]MemoryProfiler: Initialize
+[2022.02.13-12.05.03:862][  0]MemoryProfiler: OnSessionChanged
+[2022.02.13-12.05.03:968][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2022.02.13-12.05.03:968][  0]LogFileCache: Scanning file cache for directory 'C:/Users/34682/Documents/Unreal Projects/Pinball/Content/' took 0.00s
+[2022.02.13-12.05.03:968][  0]LogCook: Display: Mobile HDR setting 1
+[2022.02.13-12.05.04:236][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2022.02.13-12.05.04:238][  0]SourceControl: Source control is disabled
+[2022.02.13-12.05.04:238][  0]LogUnrealEdMisc: Loading editor; pre map load, took 4.737
+[2022.02.13-12.05.04:238][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.02.13-12.05.04:238][  0]LightingResults: New page: Lighting Build
+[2022.02.13-12.05.04:239][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.02.13-12.05.04:239][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.13-12.05.04:239][  0]MapCheck: New page: Map Check
+[2022.02.13-12.05.04:239][  0]LightingResults: New page: Lighting Build
+[2022.02.13-12.05.04:251][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2022.02.13-12.05.04:299][  0]LogTexture: Display: Building textures: DeprecatedTextureEB9CBE3C423008B5E8E130901E171C89 (BGRA8, 128X128)
+[2022.02.13-12.05.04:305][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_1'.
+[2022.02.13-12.05.04:306][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2022.02.13-12.05.04:308][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.02.13-12.05.04:314][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2022.02.13-12.05.04:315][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.02.13-12.05.04:315][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.159ms to complete.
+[2022.02.13-12.05.04:315][  0]LogFileHelpers: Loading map 'Template_Default' took 0.077
+[2022.02.13-12.05.04:317][  0]LogUnrealEdMisc: Total Editor Startup Time, took 4.816
+[2022.02.13-12.05.04:417][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.13-12.05.04:423][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.13-12.05.04:428][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.13-12.05.04:434][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.13-12.05.04:448][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0106 seconds. Added 3604 classes and 861 folders.
+[2022.02.13-12.05.04:450][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2022.02.13-12.05.04:451][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2022.02.13-12.05.04:451][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.02.13-12.05.04:451][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2022.02.13-12.05.04:451][  0]LogPakFile: OnPakFileMounted2Time == 0.000006
+[2022.02.13-12.05.04:452][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2022.02.13-12.05.04:452][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.02.13-12.05.04:452][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2022.02.13-12.05.04:452][  0]LogPakFile: OnPakFileMounted2Time == 0.000007
+[2022.02.13-12.05.04:452][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2022.02.13-12.05.04:452][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.02.13-12.05.04:452][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2022.02.13-12.05.04:452][  0]LogPakFile: OnPakFileMounted2Time == 0.000008
+[2022.02.13-12.05.04:453][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.02.13-12.05.04:453][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.02.13-12.05.04:453][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2022.02.13-12.05.04:453][  0]LogPakFile: OnPakFileMounted2Time == 0.000009
+[2022.02.13-12.05.04:453][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2022.02.13-12.05.04:453][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.02.13-12.05.04:453][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2022.02.13-12.05.04:453][  0]LogPakFile: OnPakFileMounted2Time == 0.000010
+[2022.02.13-12.05.04:453][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2022.02.13-12.05.04:453][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.02.13-12.05.04:454][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2022.02.13-12.05.04:454][  0]LogPakFile: OnPakFileMounted2Time == 0.000011
+[2022.02.13-12.05.04:454][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2022.02.13-12.05.04:454][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.02.13-12.05.04:454][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2022.02.13-12.05.04:454][  0]LogPakFile: OnPakFileMounted2Time == 0.000012
+[2022.02.13-12.05.04:454][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2022.02.13-12.05.04:454][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.02.13-12.05.04:454][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2022.02.13-12.05.04:454][  0]LogPakFile: OnPakFileMounted2Time == 0.000013
+[2022.02.13-12.05.04:455][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2022.02.13-12.05.04:455][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.02.13-12.05.04:455][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2022.02.13-12.05.04:455][  0]LogPakFile: OnPakFileMounted2Time == 0.000014
+[2022.02.13-12.05.04:455][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2022.02.13-12.05.04:455][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.02.13-12.05.04:455][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2022.02.13-12.05.04:455][  0]LogPakFile: OnPakFileMounted2Time == 0.000018
+[2022.02.13-12.05.04:456][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2022.02.13-12.05.04:456][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.02.13-12.05.04:456][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2022.02.13-12.05.04:456][  0]LogPakFile: OnPakFileMounted2Time == 0.000019
+[2022.02.13-12.05.04:456][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2022.02.13-12.05.04:456][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.02.13-12.05.04:456][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2022.02.13-12.05.04:456][  0]LogPakFile: OnPakFileMounted2Time == 0.000020
+[2022.02.13-12.05.04:457][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.02.13-12.05.04:457][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.02.13-12.05.04:457][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2022.02.13-12.05.04:457][  0]LogPakFile: OnPakFileMounted2Time == 0.000021
+[2022.02.13-12.05.04:457][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2022.02.13-12.05.04:457][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.02.13-12.05.04:457][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2022.02.13-12.05.04:457][  0]LogPakFile: OnPakFileMounted2Time == 0.000022
+[2022.02.13-12.05.04:458][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2022.02.13-12.05.04:458][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.02.13-12.05.04:458][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2022.02.13-12.05.04:458][  0]LogPakFile: OnPakFileMounted2Time == 0.000023
+[2022.02.13-12.05.04:458][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2022.02.13-12.05.04:458][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.02.13-12.05.04:458][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2022.02.13-12.05.04:458][  0]LogPakFile: OnPakFileMounted2Time == 0.000024
+[2022.02.13-12.05.04:458][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2022.02.13-12.05.04:458][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.02.13-12.05.04:458][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2022.02.13-12.05.04:458][  0]LogPakFile: OnPakFileMounted2Time == 0.000025
+[2022.02.13-12.05.04:459][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2022.02.13-12.05.04:459][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.02.13-12.05.04:459][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2022.02.13-12.05.04:459][  0]LogPakFile: OnPakFileMounted2Time == 0.000026
+[2022.02.13-12.05.04:459][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.02.13-12.05.04:459][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.02.13-12.05.04:459][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2022.02.13-12.05.04:459][  0]LogPakFile: OnPakFileMounted2Time == 0.000027
+[2022.02.13-12.05.04:460][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.02.13-12.05.04:460][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.02.13-12.05.04:460][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2022.02.13-12.05.04:460][  0]LogPakFile: OnPakFileMounted2Time == 0.000028
+[2022.02.13-12.05.04:460][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2022.02.13-12.05.04:460][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.02.13-12.05.04:460][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2022.02.13-12.05.04:460][  0]LogPakFile: OnPakFileMounted2Time == 0.000029
+[2022.02.13-12.05.04:460][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2022.02.13-12.05.04:460][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.02.13-12.05.04:460][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2022.02.13-12.05.04:460][  0]LogPakFile: OnPakFileMounted2Time == 0.000030
+[2022.02.13-12.05.04:461][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2022.02.13-12.05.04:461][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.02.13-12.05.04:461][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2022.02.13-12.05.04:461][  0]LogPakFile: OnPakFileMounted2Time == 0.000031
+[2022.02.13-12.05.04:461][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2022.02.13-12.05.04:461][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.02.13-12.05.04:461][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2022.02.13-12.05.04:461][  0]LogPakFile: OnPakFileMounted2Time == 0.000032
+[2022.02.13-12.05.04:462][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.02.13-12.05.04:462][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.02.13-12.05.04:462][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2022.02.13-12.05.04:462][  0]LogPakFile: OnPakFileMounted2Time == 0.000033
+[2022.02.13-12.05.04:462][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2022.02.13-12.05.04:462][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.02.13-12.05.04:462][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2022.02.13-12.05.04:462][  0]LogPakFile: OnPakFileMounted2Time == 0.000035
+[2022.02.13-12.05.04:492][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2022.02.13-12.05.04:494][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2022.02.13-12.05.04:526][  0]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.02.13-12.05.05:032][  0]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.02.13-12.05.05:035][  0]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.02.13-12.05.05:103][  0]LogRenderer: Reallocating scene render targets to support 1448x700 Format 10 NumSamples 1 (Frame:1).
+[2022.02.13-12.05.05:138][  0]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.02.13-12.05.05:353][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2022.02.13-12.05.05:353][  0]LogLoad: (Engine Initialization) Total time: 5.85 seconds
+[2022.02.13-12.05.05:353][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.02.13-12.05.05:353][  0]LogInit: First time updating LLM stats...
+[2022.02.13-12.05.05:409][  0]LogAssetRegistry: Asset discovery search completed in 3.2728 seconds
+[2022.02.13-12.05.05:410][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2022.02.13-12.05.05:411][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.02.13-12.05.46:167][490]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2022.02.13-12.05.46:174][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:175][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:175][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:175][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:175][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:175][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:175][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:175][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:175][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:175][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:175][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:175][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:175][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:175][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:175][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:175][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:175][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:175][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:175][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:176][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:176][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:176][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:176][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:176][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:176][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:176][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:176][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:176][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:176][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:176][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:176][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:176][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:176][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:176][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:176][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:176][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:176][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:176][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:176][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:176][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:176][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:177][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:177][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:177][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:177][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:177][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:177][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:177][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:177][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:177][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:177][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:177][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:177][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:177][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:177][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:177][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:177][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:177][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:177][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:177][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:177][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:178][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:178][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:178][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:178][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:178][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:178][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:178][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:178][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:178][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:178][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:178][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:178][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:178][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:178][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:178][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:178][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:179][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:179][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:179][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:179][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:179][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:179][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:179][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:179][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:179][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:179][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:179][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:179][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:179][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:179][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:179][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:179][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:179][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:179][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:179][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:179][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:180][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:180][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:180][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:180][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:180][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:180][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:180][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:180][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:180][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:180][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:180][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:180][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:180][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:180][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:180][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:180][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:180][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:180][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:180][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:180][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:180][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:181][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:181][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:181][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:181][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:181][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:181][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:181][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:181][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:181][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:181][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:181][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:181][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:181][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:181][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:181][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:181][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:181][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:181][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:181][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:181][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:182][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:182][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:182][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:182][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:182][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:182][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:182][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:182][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:182][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:182][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:182][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:182][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:182][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:182][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:182][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:182][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:182][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:182][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:182][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:182][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:191][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:191][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:191][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:191][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:193][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:219][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:219][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:219][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:220][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:221][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:226][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:239][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:242][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:242][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:254][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:256][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:256][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:257][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:275][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:275][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:283][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:283][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:283][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:283][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:283][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:283][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:283][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:284][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:284][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:284][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:284][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:284][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:284][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:284][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:284][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:284][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:284][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:284][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:284][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:284][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:284][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:284][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:284][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:284][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:284][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:285][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:285][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:285][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:285][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:285][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:285][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:285][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:285][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:285][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:285][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:285][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:285][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:285][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:285][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:285][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:285][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:285][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:285][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:285][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:285][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:285][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:286][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:286][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:286][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:286][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:286][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:286][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:286][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:286][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:286][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:286][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:286][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:286][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:286][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:286][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:286][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:286][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:286][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:286][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:286][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:286][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:286][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:287][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:287][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:287][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:287][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:287][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:287][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:287][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:287][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:287][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:287][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:287][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:287][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:287][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:287][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:287][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:287][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:287][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:287][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:287][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:287][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:287][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:288][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:288][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:288][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:288][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:288][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:288][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:288][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:288][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:288][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:288][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:288][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:288][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:288][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:288][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:288][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:288][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:288][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:288][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:288][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:288][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:288][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:288][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:289][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:289][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:289][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:289][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:289][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:289][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:289][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:289][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:289][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:289][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:289][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:289][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:289][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:289][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:289][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:289][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:289][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:289][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:289][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:289][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:289][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:290][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:290][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:290][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:290][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:290][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:290][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:290][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:290][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:290][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:290][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:290][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:290][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:290][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:290][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:290][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:290][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:290][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:291][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:291][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:291][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:291][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:291][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:291][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:291][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:291][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:291][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:291][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:298][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:298][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:299][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:299][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:301][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:323][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:323][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:323][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:324][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:325][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:329][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:342][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:344][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:344][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:356][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:358][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:358][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:359][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:377][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.05.46:378][490]LogVSAccessor: Warning: Couldn't access module table
+[2022.02.13-12.07.58:292][631]LogSlate: Window 'Editor Preferences' being destroyed
+[2022.02.13-12.07.58:296][631]LogSlate: Window 'Editor Preferences' being destroyed
+[2022.02.13-12.08.02:643][130]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.02.13-12.08.02:699][130]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.02.13-12.08.27:473][ 23]Running C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/34682/Documents/Unreal Projects/Pinball/Pinball.uproject" -game -rocket -progress
+[2022.02.13-12.08.27:779][ 23]Discovering modules, targets and source code for project...
+[2022.02.13-12.08.29:689][ 23]Binding IntelliSense data...
+[2022.02.13-12.08.35:537][ 23]Binding IntelliSense data... 100%
+[2022.02.13-12.08.35:537][ 23]Writing project files...
+[2022.02.13-12.08.38:555][ 23]Writing project files... 100%
+[2022.02.13-12.08.38:758][ 23]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2022.02.13-12.08.38:768][ 23]Candidate modules for hot reload:
+[2022.02.13-12.08.38:768][ 23]  Pinball
+[2022.02.13-12.08.38:768][ 23]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Pinball,6225 PinballEditor Win64 Development -Project="C:/Users/34682/Documents/Unreal Projects/Pinball/Pinball.uproject" "C:/Users/34682/Documents/Unreal Projects/Pinball/Pinball.uproject"  -IgnoreJunk]
+[2022.02.13-12.08.45:310][ 23]CompilerResultsLog: New page: Compilation - Feb 13, 2022, 2:08:45 PM
+[2022.02.13-12.08.45:310][ 23]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\34682\Documents\Unreal Projects).
+[2022.02.13-12.08.45:310][ 23]CompilerResultsLog: Creating makefile for PinballEditor (no existing makefile)
+[2022.02.13-12.08.45:310][ 23]CompilerResultsLog: Parsing headers for PinballEditor
+[2022.02.13-12.08.45:310][ 23]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\34682\Documents\Unreal Projects\Pinball\Pinball.uproject" "C:\Users\34682\Documents\Unreal Projects\Pinball\Intermediate\Build\Win64\PinballEditor\Development\PinballEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\34682\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.02.13-12.08.45:310][ 23]CompilerResultsLog: Reflection code generated for PinballEditor in 3,1923802 seconds
+[2022.02.13-12.08.45:310][ 23]CompilerResultsLog: Building PinballEditor...
+[2022.02.13-12.08.45:310][ 23]CompilerResultsLog: Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.02.13-12.08.45:310][ 23]CompilerResultsLog: Building 13 actions with 12 processes...
+[2022.02.13-12.08.45:310][ 23]CompilerResultsLog:   [1/13] BallLauncher.cpp
+[2022.02.13-12.08.45:310][ 23]CompilerResultsLog:   [2/13] Pinball.cpp
+[2022.02.13-12.08.45:310][ 23]CompilerResultsLog:   [3/13] FlippersController.cpp
+[2022.02.13-12.08.45:310][ 23]CompilerResultsLog:   [4/13] Ball.cpp
+[2022.02.13-12.08.45:310][ 23]CompilerResultsLog:   [5/13] Pinball.init.gen.cpp
+[2022.02.13-12.08.45:310][ 23]CompilerResultsLog:   [6/13] PinballGameModeBase.cpp
+[2022.02.13-12.08.45:310][ 23]CompilerResultsLog:   [7/13] FlippersController.gen.cpp
+[2022.02.13-12.08.45:310][ 23]CompilerResultsLog:   [8/13] BallLauncher.gen.cpp
+[2022.02.13-12.08.45:310][ 23]CompilerResultsLog:   [9/13] Ball.gen.cpp
+[2022.02.13-12.08.45:310][ 23]CompilerResultsLog:   [10/13] PinballGameModeBase.gen.cpp
+[2022.02.13-12.08.45:310][ 23]CompilerResultsLog:   [11/13] UE4Editor-Pinball-6225.lib
+[2022.02.13-12.08.45:310][ 23]CompilerResultsLog:      Creating library C:\Users\34682\Documents\Unreal Projects\Pinball\Intermediate\Build\Win64\UE4Editor\Development\Pinball\UE4Editor-Pinball-6225.lib and object C:\Users\34682\Documents\Unreal Projects\Pinball\Intermediate\Build\Win64\UE4Editor\Development\Pinball\UE4Editor-Pinball-6225.exp
+[2022.02.13-12.08.45:310][ 23]CompilerResultsLog:   [12/13] UE4Editor-Pinball-6225.dll
+[2022.02.13-12.08.45:310][ 23]CompilerResultsLog:      Creating library C:\Users\34682\Documents\Unreal Projects\Pinball\Intermediate\Build\Win64\UE4Editor\Development\Pinball\UE4Editor-Pinball-6225.suppressed.lib and object C:\Users\34682\Documents\Unreal Projects\Pinball\Intermediate\Build\Win64\UE4Editor\Development\Pinball\UE4Editor-Pinball-6225.suppressed.exp
+[2022.02.13-12.08.45:310][ 23]CompilerResultsLog:   [13/13] PinballEditor.target
+[2022.02.13-12.08.45:310][ 23]CompilerResultsLog: Total time in Parallel executor: 1,69 seconds
+[2022.02.13-12.08.45:310][ 23]CompilerResultsLog: Total execution time: 6,48 seconds
+[2022.02.13-12.08.45:311][ 23]LogMainFrame: MainFrame: Module compiling took 6.552 seconds
+[2022.02.13-12.08.45:343][ 23]LogClass: Could not find existing class BallLauncher in package /Script/Pinball for HotReload, assuming new class
+[2022.02.13-12.08.45:346][ 23]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Pinball' in 0.0003 seconds. Added 4 classes and 3 folders.
+[2022.02.13-12.08.45:347][ 23]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.02.13-12.08.45:382][ 23]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0082 seconds. Added 3605 classes and 862 folders.
+[2022.02.13-12.08.45:383][ 23]Display: HotReload took  6.6s.
+[2022.02.13-12.08.45:383][ 23]Warning: HotReload operation took  6.6s.
+[2022.02.13-12.08.45:411][ 23]LogSlate: Window 'Add C++ Class' being destroyed
+[2022.02.13-12.08.45:418][ 23]LogHotReload: New module detected: UE4Editor-Pinball-6225.dll
+[2022.02.13-12.08.45:460][ 24]LogHotReload: Starting Hot-Reload from IDE
+[2022.02.13-12.08.45:550][ 24]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Pinball' in 0.0003 seconds. Added 4 classes and 3 folders.
+[2022.02.13-12.08.45:551][ 24]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.02.13-12.08.45:560][ 24]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0096 seconds. Added 3605 classes and 862 folders.
+[2022.02.13-12.08.45:565][ 24]Display: HotReload took  0.1s.

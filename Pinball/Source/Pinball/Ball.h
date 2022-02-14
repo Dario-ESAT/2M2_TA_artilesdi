@@ -14,6 +14,17 @@ class PINBALL_API ABall : public AActor
 public:	
 	// Sets default values for this actor's properties
 	ABall();
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Tonterias")
+	UStaticMeshComponent* SMComp_;
+
+	UStaticMeshComponent* Mesh_;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Tonterias")
+	FVector direction_;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Tonterias")
+	float force_;
+
 
 protected:
 	// Called when the game starts or when spawned

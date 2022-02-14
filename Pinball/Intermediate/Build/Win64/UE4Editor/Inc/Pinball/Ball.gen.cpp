@@ -17,6 +17,8 @@ void EmptyLinkFunctionForGeneratedCodeBall() {}
 	PINBALL_API UClass* Z_Construct_UClass_ABall();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_Pinball();
+	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 // End Cross Module References
 	void ABall::StaticRegisterNativesABall()
 	{
@@ -31,6 +33,19 @@ void EmptyLinkFunctionForGeneratedCodeBall() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SMComp__MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SMComp_;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_direction__MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_direction_;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_force__MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_force_;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -44,6 +59,33 @@ void EmptyLinkFunctionForGeneratedCodeBall() {}
 		{ "ModuleRelativePath", "Ball.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABall_Statics::NewProp_SMComp__MetaData[] = {
+		{ "Category", "Tonterias" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Ball.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABall_Statics::NewProp_SMComp_ = { "SMComp_", nullptr, (EPropertyFlags)0x00100000000a000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABall, SMComp_), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABall_Statics::NewProp_SMComp__MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABall_Statics::NewProp_SMComp__MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABall_Statics::NewProp_direction__MetaData[] = {
+		{ "Category", "Tonterias" },
+		{ "ModuleRelativePath", "Ball.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ABall_Statics::NewProp_direction_ = { "direction_", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABall, direction_), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_ABall_Statics::NewProp_direction__MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABall_Statics::NewProp_direction__MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABall_Statics::NewProp_force__MetaData[] = {
+		{ "Category", "Tonterias" },
+		{ "ModuleRelativePath", "Ball.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABall_Statics::NewProp_force_ = { "force_", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABall, force_), METADATA_PARAMS(Z_Construct_UClass_ABall_Statics::NewProp_force__MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABall_Statics::NewProp_force__MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABall_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABall_Statics::NewProp_SMComp_,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABall_Statics::NewProp_direction_,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABall_Statics::NewProp_force_,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ABall_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ABall>::IsAbstract,
 	};
@@ -53,11 +95,11 @@ void EmptyLinkFunctionForGeneratedCodeBall() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_ABall_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_ABall_Statics::PropPointers),
 		0,
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_ABall_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ABall_Statics::Class_MetaDataParams))
@@ -71,7 +113,7 @@ void EmptyLinkFunctionForGeneratedCodeBall() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABall, 3563146679);
+	IMPLEMENT_CLASS(ABall, 2217496661);
 	template<> PINBALL_API UClass* StaticClass<ABall>()
 	{
 		return ABall::StaticClass();

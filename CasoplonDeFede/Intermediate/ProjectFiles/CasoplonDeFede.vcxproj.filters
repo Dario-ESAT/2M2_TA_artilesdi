@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\CasoplonDeFede.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{F22301B2-B970-4AFD-A3A1-99E420BB5215}</UniqueIdentifier>
+      <UniqueIdentifier>{87489759-C95D-4476-A268-76099F6F1967}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\CasoplonDeFede.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{C2C03665-79AA-4248-B915-27A14B038AC5}</UniqueIdentifier>
+      <UniqueIdentifier>{D72F8B76-70E3-4066-9303-3CA716E43F60}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\CasoplonDeFede">
-      <UniqueIdentifier>{A84FC6BD-9E6F-47A2-A119-8EF31223723B}</UniqueIdentifier>
+      <UniqueIdentifier>{A153FD31-43C7-4C55-9365-C1DEAC35D97E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\CasoplonDeFede\CasoplonDeFede.Build.cs">
       <Filter>Source\CasoplonDeFede</Filter>
@@ -54,7 +54,7 @@
       <Filter>Source\CasoplonDeFede</Filter>
     </ClInclude>
     <Filter Include="Source\CasoplonDeFede\Private">
-      <UniqueIdentifier>{B4C286B1-BD47-4F57-81F0-FDF03836F8F4}</UniqueIdentifier>
+      <UniqueIdentifier>{AE560CA8-C54C-4B3F-A2E5-B8D0809DF079}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\CasoplonDeFede\Private\MyPawn.cpp">
       <Filter>Source\CasoplonDeFede\Private</Filter>
@@ -66,7 +66,7 @@
       <Filter>Source\CasoplonDeFede\Private</Filter>
     </ClCompile>
     <Filter Include="Source\CasoplonDeFede\Public">
-      <UniqueIdentifier>{B0621FE5-5800-4364-9DD3-1857FAE586ED}</UniqueIdentifier>
+      <UniqueIdentifier>{7103483C-4FE6-4716-932D-9E691B327305}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\CasoplonDeFede\Public\MyPawn.h">
       <Filter>Source\CasoplonDeFede\Public</Filter>

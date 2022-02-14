@@ -9,13 +9,23 @@ ABall::ABall()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	SMComp_ = CreateDefaultSubobject<UStaticMeshComponent>(
+		TEXT("SMComp")
+		);
+	SMComp_->SetSimulatePhysics(true);
+	RootComponent = SMComp_;
+
 }
 
 // Called when the game starts or when spawned
 void ABall::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	//Mesh_ = Cast<UStaticMeshComponent>(GetOwner()->GetRootComponent());
+
+
+	SMComp_->AddForce(direction_ * force_ * SMComp_->GetMass());
+
 }
 
 // Called every frame

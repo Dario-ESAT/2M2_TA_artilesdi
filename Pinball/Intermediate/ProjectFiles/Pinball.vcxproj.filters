@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Pinball.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{17E8A44C-D62D-4659-828C-BB4995896558}</UniqueIdentifier>
+      <UniqueIdentifier>{7AE97338-6E93-439B-871C-F502014F59C4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Pinball.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{4FC22A91-EBA2-4C53-B5E5-FD36A05732B3}</UniqueIdentifier>
+      <UniqueIdentifier>{0ECB1D1B-B97C-4572-934B-F6D7EE424373}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Pinball">
-      <UniqueIdentifier>{848F07E2-15C7-4362-A79B-BA62B067D643}</UniqueIdentifier>
+      <UniqueIdentifier>{3F840B84-ECE5-425A-8EE4-86715925F53C}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Pinball\Ball.cpp">
       <Filter>Source\Pinball</Filter>
@@ -52,6 +52,18 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\Pinball\PinballGameModeBase.h">
       <Filter>Source\Pinball</Filter>
+    </ClInclude>
+    <Filter Include="Source\Pinball\Private">
+      <UniqueIdentifier>{6CC03C09-D8F0-46BC-B248-E7F83FB59169}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Pinball\Private\BallLauncher.cpp">
+      <Filter>Source\Pinball\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Pinball\Public">
+      <UniqueIdentifier>{ACAD7097-5404-4A21-922A-77B20B68EC9A}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Pinball\Public\BallLauncher.h">
+      <Filter>Source\Pinball\Public</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

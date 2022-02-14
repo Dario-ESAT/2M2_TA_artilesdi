@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodePinball_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xB7970460,
-				0xB115B032,
+				0x5BD50859,
+				0xEB271E39,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);
