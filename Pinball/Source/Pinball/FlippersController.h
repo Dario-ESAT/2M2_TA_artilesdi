@@ -15,9 +15,35 @@ public:
 	// Sets default values for this pawn's properties
 	AFlippersController();
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Flippers")
+	USceneComponent* center_pivot_;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Flippers")
+	UStaticMeshComponent* right_flipper_mesh_;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Flippers")
+	USceneComponent* right_flipper_pivot_;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Flippers")
+	UStaticMeshComponent* left_flipper_mesh_;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Flippers")
+	USceneComponent* left_flipper_pivot_;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Flippers")
+	float time_to_rotate;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+private:
+
+	void StartKick();
+	void EndKick();
+
+	bool is_rotating_;
+	float count_;
 
 public:	
 	// Called every frame

@@ -6,8 +6,20 @@
 // Sets default values
 AFlippersController::AFlippersController()
 {
- 	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+
+	center_pivot_ = CreateDefaultSubobject<USceneComponent>(TEXT("Center_Pivot_"));
+	RootComponent = center_pivot_;
+
+	right_flipper_mesh_ = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Right_Flipper"));
+	right_flipper_pivot_ = CreateDefaultSubobject<USceneComponent>(TEXT("Right_Flipper_Pivot"));
+
+	right_flipper_mesh_->SetupAttachment(right_flipper_pivot_);
+
+	left_flipper_mesh_ = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Left_Flipper"));
+	left_flipper_pivot_ = CreateDefaultSubobject<USceneComponent>(TEXT("Left_Flipper_Pivot"));
+
+	left_flipper_mesh_->SetupAttachment(left_flipper_pivot_);
 
 }
 
@@ -30,5 +42,15 @@ void AFlippersController::SetupPlayerInputComponent(UInputComponent* PlayerInput
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+}
+
+void AFlippersController::StartKick() {
+	is_rotating_ = true;
+	count_ = 0;
+}
+
+void AFlippersController::EndKick() {
+	is_rotating_ = false;
+	count_ = 0;
 }
 

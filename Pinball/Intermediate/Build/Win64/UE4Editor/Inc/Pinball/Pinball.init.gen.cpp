@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodePinball_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xFD8A525B,
+				0x54B1D636,
 				0xEB271E39,
 				METADATA_PARAMS(nullptr, 0)
 			};

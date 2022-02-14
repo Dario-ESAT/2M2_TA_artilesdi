@@ -17,6 +17,8 @@ void EmptyLinkFunctionForGeneratedCodeFlippersController() {}
 	PINBALL_API UClass* Z_Construct_UClass_AFlippersController();
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_Pinball();
+	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
 	void AFlippersController::StaticRegisterNativesAFlippersController()
 	{
@@ -31,6 +33,31 @@ void EmptyLinkFunctionForGeneratedCodeFlippersController() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_center_pivot__MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_center_pivot_;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_right_flipper_mesh__MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_right_flipper_mesh_;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_right_flipper_pivot__MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_right_flipper_pivot_;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_left_flipper_mesh__MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_left_flipper_mesh_;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_left_flipper_pivot__MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_left_flipper_pivot_;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_time_to_rotate_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_time_to_rotate;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -45,6 +72,61 @@ void EmptyLinkFunctionForGeneratedCodeFlippersController() {}
 		{ "ModuleRelativePath", "FlippersController.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFlippersController_Statics::NewProp_center_pivot__MetaData[] = {
+		{ "Category", "Flippers" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "FlippersController.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFlippersController_Statics::NewProp_center_pivot_ = { "center_pivot_", nullptr, (EPropertyFlags)0x00100000000a000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFlippersController, center_pivot_), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFlippersController_Statics::NewProp_center_pivot__MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFlippersController_Statics::NewProp_center_pivot__MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFlippersController_Statics::NewProp_right_flipper_mesh__MetaData[] = {
+		{ "Category", "Flippers" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "FlippersController.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFlippersController_Statics::NewProp_right_flipper_mesh_ = { "right_flipper_mesh_", nullptr, (EPropertyFlags)0x00100000000a000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFlippersController, right_flipper_mesh_), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFlippersController_Statics::NewProp_right_flipper_mesh__MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFlippersController_Statics::NewProp_right_flipper_mesh__MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFlippersController_Statics::NewProp_right_flipper_pivot__MetaData[] = {
+		{ "Category", "Flippers" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "FlippersController.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFlippersController_Statics::NewProp_right_flipper_pivot_ = { "right_flipper_pivot_", nullptr, (EPropertyFlags)0x00100000000a000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFlippersController, right_flipper_pivot_), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFlippersController_Statics::NewProp_right_flipper_pivot__MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFlippersController_Statics::NewProp_right_flipper_pivot__MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFlippersController_Statics::NewProp_left_flipper_mesh__MetaData[] = {
+		{ "Category", "Flippers" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "FlippersController.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFlippersController_Statics::NewProp_left_flipper_mesh_ = { "left_flipper_mesh_", nullptr, (EPropertyFlags)0x00100000000a000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFlippersController, left_flipper_mesh_), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFlippersController_Statics::NewProp_left_flipper_mesh__MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFlippersController_Statics::NewProp_left_flipper_mesh__MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFlippersController_Statics::NewProp_left_flipper_pivot__MetaData[] = {
+		{ "Category", "Flippers" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "FlippersController.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFlippersController_Statics::NewProp_left_flipper_pivot_ = { "left_flipper_pivot_", nullptr, (EPropertyFlags)0x00100000000a000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFlippersController, left_flipper_pivot_), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFlippersController_Statics::NewProp_left_flipper_pivot__MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFlippersController_Statics::NewProp_left_flipper_pivot__MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFlippersController_Statics::NewProp_time_to_rotate_MetaData[] = {
+		{ "Category", "Flippers" },
+		{ "ModuleRelativePath", "FlippersController.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AFlippersController_Statics::NewProp_time_to_rotate = { "time_to_rotate", nullptr, (EPropertyFlags)0x0010000000020005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFlippersController, time_to_rotate), METADATA_PARAMS(Z_Construct_UClass_AFlippersController_Statics::NewProp_time_to_rotate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFlippersController_Statics::NewProp_time_to_rotate_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFlippersController_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlippersController_Statics::NewProp_center_pivot_,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlippersController_Statics::NewProp_right_flipper_mesh_,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlippersController_Statics::NewProp_right_flipper_pivot_,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlippersController_Statics::NewProp_left_flipper_mesh_,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlippersController_Statics::NewProp_left_flipper_pivot_,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlippersController_Statics::NewProp_time_to_rotate,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AFlippersController_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AFlippersController>::IsAbstract,
 	};
@@ -54,11 +136,11 @@ void EmptyLinkFunctionForGeneratedCodeFlippersController() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_AFlippersController_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_AFlippersController_Statics::PropPointers),
 		0,
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_AFlippersController_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AFlippersController_Statics::Class_MetaDataParams))
@@ -72,7 +154,7 @@ void EmptyLinkFunctionForGeneratedCodeFlippersController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFlippersController, 2074426775);
+	IMPLEMENT_CLASS(AFlippersController, 1519365775);
 	template<> PINBALL_API UClass* StaticClass<AFlippersController>()
 	{
 		return AFlippersController::StaticClass();

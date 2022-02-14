@@ -19,15 +19,6 @@ void ABallLauncher::BeginPlay()
 
 }
 
-void ABallLauncher::StartRotation() {
-	is_rotating_ = true;
-	count_ = 0;
-}
-
-void ABallLauncher::StopRotation() {
-	is_rotating_ = false;
-	count_ = 0;
-}
 
 // Called every frame
 void ABallLauncher::Tick(float DeltaTime)
