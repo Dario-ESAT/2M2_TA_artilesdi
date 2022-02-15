@@ -16,22 +16,30 @@ public:
 	AFlippersController();
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Flippers")
-	USceneComponent* center_pivot_;
+		USceneComponent* center_pivot_;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Flippers")
-	UStaticMeshComponent* right_flipper_mesh_;
+		UStaticMeshComponent* right_flipper_mesh_;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Flippers")
-	USceneComponent* right_flipper_pivot_;
+		USceneComponent* right_flipper_pivot_;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Flippers")
-	UStaticMeshComponent* left_flipper_mesh_;
+		UStaticMeshComponent* left_flipper_mesh_;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Flippers")
-	USceneComponent* left_flipper_pivot_;
+		USceneComponent* left_flipper_pivot_;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Flippers")
-	float time_to_rotate;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Flippers")
+		float time_to_rotate_;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Flippers")
+		float rotation_;
+
+	UFUNCTION()
+		void KickLeft();
+	UFUNCTION()
+		void KickRight();
 
 protected:
 	// Called when the game starts or when spawned
@@ -41,6 +49,7 @@ private:
 
 	void StartKick();
 	void EndKick();
+
 
 	bool is_rotating_;
 	float count_;

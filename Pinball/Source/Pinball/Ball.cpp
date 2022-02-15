@@ -21,7 +21,6 @@ ABall::ABall()
 void ABall::BeginPlay()
 {
 	Super::BeginPlay();
-	//Mesh_ = Cast<UStaticMeshComponent>(GetOwner()->GetRootComponent());
 
 
 	SMComp_->AddForce(direction_ * force_ * SMComp_->GetMass());

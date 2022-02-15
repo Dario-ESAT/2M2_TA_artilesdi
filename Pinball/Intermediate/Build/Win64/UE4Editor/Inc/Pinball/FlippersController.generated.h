@@ -14,8 +14,18 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define PINBALL_FlippersController_generated_h
 
 #define Pinball_Source_Pinball_FlippersController_h_12_SPARSE_DATA
-#define Pinball_Source_Pinball_FlippersController_h_12_RPC_WRAPPERS
-#define Pinball_Source_Pinball_FlippersController_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define Pinball_Source_Pinball_FlippersController_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execKickRight); \
+	DECLARE_FUNCTION(execKickLeft);
+
+
+#define Pinball_Source_Pinball_FlippersController_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execKickRight); \
+	DECLARE_FUNCTION(execKickLeft);
+
+
 #define Pinball_Source_Pinball_FlippersController_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAFlippersController(); \
