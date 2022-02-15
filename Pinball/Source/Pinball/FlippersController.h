@@ -4,8 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
-#include "FlippersController.generated.h"
+#include "Camera/CameraComponent.h"
 
+#include "FlippersController.generated.h"
 UCLASS()
 class PINBALL_API AFlippersController : public APawn
 {
@@ -23,6 +24,10 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Flippers")
 		USceneComponent* right_flipper_pivot_;
+
+	//ACameraActor* camera_;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Flippers")
+		UCameraComponent* camera_;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Flippers")
 		UStaticMeshComponent* left_flipper_mesh_;

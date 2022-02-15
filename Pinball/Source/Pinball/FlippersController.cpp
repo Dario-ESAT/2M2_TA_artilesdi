@@ -2,8 +2,6 @@
 
 
 #include "FlippersController.h"
-#include "Components/InputComponent.h"
-#include "Kismet/GameplayStatics.h"
 
 // Sets default values
 AFlippersController::AFlippersController()
@@ -12,10 +10,11 @@ AFlippersController::AFlippersController()
 
 	center_pivot_ = CreateDefaultSubobject<USceneComponent>(TEXT("Center_Pivot_"));
 	RootComponent = center_pivot_;
+	camera_ = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 
 	//Init meshes
-	right_flipper_mesh_ = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Right_Flipper"));
 	left_flipper_mesh_ = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Left_Flipper"));
+	right_flipper_mesh_ = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Right_Flipper"));
 	
 	//Init pivots
 	right_flipper_pivot_ = CreateDefaultSubobject<USceneComponent>(TEXT("Right_Flipper_Pivot"));
@@ -28,6 +27,10 @@ AFlippersController::AFlippersController()
 	left_flipper_pivot_->SetupAttachment(center_pivot_);
 	right_flipper_pivot_->SetupAttachment(center_pivot_);
 
+	camera_->SetupAttachment(center_pivot_);
+
+	
+
 }
 
 // Called when the game starts or when spawned
@@ -35,10 +38,6 @@ void AFlippersController::BeginPlay()
 {
 	Super::BeginPlay();
 
-	check(InputComponent);
-
-	InputComponent->BindAction("Left", IE_Pressed, this, &AFlippersController::KickLeft).bConsumeInput = false;
-	InputComponent->BindAction("Right", IE_Pressed, this, &AFlippersController::KickRight).bConsumeInput = false;
 }
 
 // Called every frame
@@ -55,6 +54,8 @@ void AFlippersController::SetupPlayerInputComponent(UInputComponent* PlayerInput
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+	PlayerInputComponent->BindAction("Left", IE_Pressed, this, &AFlippersController::KickLeft).bConsumeInput = false;
+	PlayerInputComponent->BindAction("Right", IE_Pressed, this, &AFlippersController::KickRight).bConsumeInput = false;
 }
 
 void AFlippersController::StartKick() {
@@ -68,10 +69,14 @@ void AFlippersController::EndKick() {
 }
 
 void AFlippersController::KickLeft() {
-	left_flipper_pivot_->(FQuat());
+	//left_flipper_pivot_->SetWorldRotation(FQuat(FVector(1.0f, 0.0f, 0.0f), 40.0f));
+	left_flipper_pivot_->SetWorldRotation(FRotator(0.0f, 0.0f, 40.0f));
+
 }
 
-void AFlippersController::KickRight()
-{
+void AFlippersController::KickRight() {
+	//right_flipper_pivot_->SetWorldRotation(FQuat(FVector(1.0f, 0.0f, 0.0f), 40.0f));
+	right_flipper_pivot_->SetWorldRotation(FRotator(0.0f, 00.0f, 40.0f));
+
 }
 

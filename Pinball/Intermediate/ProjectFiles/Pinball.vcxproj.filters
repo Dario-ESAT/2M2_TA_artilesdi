@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Pinball.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{7AE97338-6E93-439B-871C-F502014F59C4}</UniqueIdentifier>
+      <UniqueIdentifier>{714A2C8C-9D33-40B1-A76A-2A6C148E9251}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Pinball.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{0ECB1D1B-B97C-4572-934B-F6D7EE424373}</UniqueIdentifier>
+      <UniqueIdentifier>{2A77BCF3-80A6-438A-B806-13D001FE25FA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,8 +23,11 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\Pinball">
-      <UniqueIdentifier>{3F840B84-ECE5-425A-8EE4-86715925F53C}</UniqueIdentifier>
+      <UniqueIdentifier>{33601D29-32BA-49C5-B572-648D3414A8E5}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Pinball\Ball.cpp">
       <Filter>Source\Pinball</Filter>
@@ -54,15 +57,21 @@
       <Filter>Source\Pinball</Filter>
     </ClInclude>
     <Filter Include="Source\Pinball\Private">
-      <UniqueIdentifier>{6CC03C09-D8F0-46BC-B248-E7F83FB59169}</UniqueIdentifier>
+      <UniqueIdentifier>{48BECF83-7158-40E1-A596-4735F1A33613}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Pinball\Private\BallLauncher.cpp">
       <Filter>Source\Pinball\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Pinball\Private\GameModePinball.cpp">
+      <Filter>Source\Pinball\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\Pinball\Public">
-      <UniqueIdentifier>{ACAD7097-5404-4A21-922A-77B20B68EC9A}</UniqueIdentifier>
+      <UniqueIdentifier>{B667394D-EE8E-4B49-AE68-02C6B4E5F331}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\Pinball\Public\BallLauncher.h">
+      <Filter>Source\Pinball\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Pinball\Public\GameModePinball.h">
       <Filter>Source\Pinball\Public</Filter>
     </ClInclude>
   </ItemGroup>

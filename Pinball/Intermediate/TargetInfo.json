@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "Pinball",
-			"Path": "C:\\Users\\34682\\Documents\\Unreal Projects\\Pinball\\Source\\Pinball.Target.cs",
+			"Path": "C:\\Users\\artilesdi\\Documents\\Unreal Projects\\Pinball\\Source\\Pinball.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "PinballEditor",
-			"Path": "C:\\Users\\34682\\Documents\\Unreal Projects\\Pinball\\Source\\PinballEditor.Target.cs",
+			"Path": "C:\\Users\\artilesdi\\Documents\\Unreal Projects\\Pinball\\Source\\PinballEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]
