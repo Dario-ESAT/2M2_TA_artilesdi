@@ -45,19 +45,21 @@ public:
 		void KickLeft();
 	UFUNCTION()
 		void KickRight();
-
+	UFUNCTION()
+		void EndKickRight();
+	UFUNCTION()
+		void EndKickLeft();
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
 private:
 
-	void StartKick();
-	void EndKick();
+	bool left_flipper_up_;
+	bool right_flipper_up_;
 
-
-	bool is_rotating_;
-	float count_;
+	float count_left_;
+	float count_right_;
 
 public:	
 	// Called every frame

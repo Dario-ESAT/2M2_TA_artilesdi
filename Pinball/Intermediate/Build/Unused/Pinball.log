@@ -3,10 +3,10 @@
   Using Visual Studio 2019 14.29.30038 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 4 actions with 4 processes...
     [1/4] FlippersController.cpp
-    [2/4] UE4Editor-Pinball-0012.lib
-       Creando biblioteca C:\Users\artilesdi\Documents\Unreal Projects\Pinball\Intermediate\Build\Win64\UE4Editor\Development\Pinball\UE4Editor-Pinball-0012.lib y objeto C:\Users\artilesdi\Documents\Unreal Projects\Pinball\Intermediate\Build\Win64\UE4Editor\Development\Pinball\UE4Editor-Pinball-0012.exp
-    [3/4] UE4Editor-Pinball-0012.dll
-       Creando biblioteca C:\Users\artilesdi\Documents\Unreal Projects\Pinball\Intermediate\Build\Win64\UE4Editor\Development\Pinball\UE4Editor-Pinball-0012.suppressed.lib y objeto C:\Users\artilesdi\Documents\Unreal Projects\Pinball\Intermediate\Build\Win64\UE4Editor\Development\Pinball\UE4Editor-Pinball-0012.suppressed.exp
+    [2/4] UE4Editor-Pinball-0014.lib
+       Creando biblioteca C:\Users\artilesdi\Documents\Unreal Projects\Pinball\Intermediate\Build\Win64\UE4Editor\Development\Pinball\UE4Editor-Pinball-0014.lib y objeto C:\Users\artilesdi\Documents\Unreal Projects\Pinball\Intermediate\Build\Win64\UE4Editor\Development\Pinball\UE4Editor-Pinball-0014.exp
+    [3/4] UE4Editor-Pinball-0014.dll
+       Creando biblioteca C:\Users\artilesdi\Documents\Unreal Projects\Pinball\Intermediate\Build\Win64\UE4Editor\Development\Pinball\UE4Editor-Pinball-0014.suppressed.lib y objeto C:\Users\artilesdi\Documents\Unreal Projects\Pinball\Intermediate\Build\Win64\UE4Editor\Development\Pinball\UE4Editor-Pinball-0014.suppressed.exp
     [4/4] PinballEditor.target
-  Total time in Parallel executor: 1,56 seconds
-  Total execution time: 2,42 seconds
+  Total time in Parallel executor: 1,52 seconds
+  Total execution time: 2,40 seconds

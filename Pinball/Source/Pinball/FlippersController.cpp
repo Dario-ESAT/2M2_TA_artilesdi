@@ -2,7 +2,7 @@
 
 
 #include "FlippersController.h"
-
+#include "Math/UnrealMathUtility.h"
 // Sets default values
 AFlippersController::AFlippersController()
 {
@@ -29,7 +29,11 @@ AFlippersController::AFlippersController()
 
 	camera_->SetupAttachment(center_pivot_);
 
-	
+	left_flipper_up_ = false;
+	right_flipper_up_ = false;
+
+	count_left_ = 0.0f;
+	count_right_ = 0.0f;
 
 }
 
@@ -44,9 +48,45 @@ void AFlippersController::BeginPlay()
 void AFlippersController::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	/*if(is_rotating_ && count_ < time_to_rotate_) {
+	if(left_flipper_up_) {
+		count_left_ += DeltaTime;
+		left_flipper_pivot_->SetWorldRotation(
+			FRotator(
+				0.0f,
+				0.0f,
+				FMath::Lerp(right_flipper_pivot_->GetRelativeTransform().Rotator().Roll,-rotation_,count_left_ / time_to_rotate_)
+			)
+		);
+	} else {
+		count_left_ += DeltaTime;
+		left_flipper_pivot_->SetWorldRotation(
+			FRotator(
+				0.0f,
+				0.0f,
+				FMath::Lerp(-rotation_, 0.0f, count_left_ / time_to_rotate_)
+			)
+		);
+	}
 
-	}*/
+	if (right_flipper_up_) {
+		count_left_ += DeltaTime;
+		right_flipper_pivot_->SetWorldRotation(
+			FRotator(
+				0.0f,
+				0.0f,
+				FMath::Lerp(0.0f, rotation_, count_left_ / time_to_rotate_)
+			)
+		);
+	} else {
+		count_left_ += DeltaTime;
+		right_flipper_pivot_->SetWorldRotation(
+			FRotator(
+				0.0f,
+				0.0f,
+				FMath::Lerp(rotation_, 0.0f, count_left_ / time_to_rotate_)
+			)
+		);
+	}
 }
 
 // Called to bind functionality to input
@@ -56,27 +96,28 @@ void AFlippersController::SetupPlayerInputComponent(UInputComponent* PlayerInput
 
 	PlayerInputComponent->BindAction("Left", IE_Pressed, this, &AFlippersController::KickLeft).bConsumeInput = false;
 	PlayerInputComponent->BindAction("Right", IE_Pressed, this, &AFlippersController::KickRight).bConsumeInput = false;
-}
-
-void AFlippersController::StartKick() {
-	is_rotating_ = true;
-	count_ = 0;
-}
-
-void AFlippersController::EndKick() {
-	is_rotating_ = false;
-	count_ = 0;
+	PlayerInputComponent->BindAction("Right", IE_Released, this, &AFlippersController::KickRight).bConsumeInput = false;
+	PlayerInputComponent->BindAction("Left", IE_Released, this, &AFlippersController::KickRight).bConsumeInput = false;
 }
 
 void AFlippersController::KickLeft() {
-	//left_flipper_pivot_->SetWorldRotation(FQuat(FVector(1.0f, 0.0f, 0.0f), 40.0f));
-	left_flipper_pivot_->SetWorldRotation(FRotator(0.0f, 0.0f, 40.0f));
+	left_flipper_up_ = true;
 
 }
 
 void AFlippersController::KickRight() {
-	//right_flipper_pivot_->SetWorldRotation(FQuat(FVector(1.0f, 0.0f, 0.0f), 40.0f));
-	right_flipper_pivot_->SetWorldRotation(FRotator(0.0f, 00.0f, 40.0f));
+	right_flipper_pivot_->SetWorldRotation(FRotator(0.0f, 00.0f, rotation_));
+	right_flipper_up_ = true;
 
 }
+
+void AFlippersController::EndKickLeft() {
+	count_left_ = 0;
+	left_flipper_up_ = false;
+}
+
+void AFlippersController::EndKickRight() {
+	count_right_ = 0;
+}
+
 
