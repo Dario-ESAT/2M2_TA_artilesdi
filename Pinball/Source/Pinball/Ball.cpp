@@ -22,6 +22,7 @@ void ABall::BeginPlay()
 {
 	Super::BeginPlay();
 
+	SetActorLocation(InitialPosition_->GetActorLocation());
 
 	SMComp_->AddForce(direction_ * force_ * SMComp_->GetMass());
 
@@ -34,3 +35,8 @@ void ABall::Tick(float DeltaTime)
 
 }
 
+
+
+void ABall::ReturnToInitialPosition() {
+	SetActorLocation(InitialPosition_->GetActorLocation());
+}

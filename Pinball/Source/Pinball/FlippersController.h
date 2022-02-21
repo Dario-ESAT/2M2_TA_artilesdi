@@ -55,8 +55,14 @@ protected:
 
 private:
 
-	bool left_flipper_up_;
-	bool right_flipper_up_;
+	bool left_flipper_is_up_;
+	bool right_flipper_is_up_;
+
+	bool left_flipper_going_up_;
+	bool right_flipper_going_up_;
+
+	bool left_flipper_down_;
+	bool right_flipper_down_;
 
 	float count_left_;
 	float count_right_;

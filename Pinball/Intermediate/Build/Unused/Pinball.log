@@ -1,12 +1,12 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\artilesdi\Documents\Unreal Projects).
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\34682\Documents\Unreal Projects).
   Building PinballEditor...
-  Using Visual Studio 2019 14.29.30038 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 4 processes...
-    [1/4] FlippersController.cpp
-    [2/4] UE4Editor-Pinball-0014.lib
-       Creando biblioteca C:\Users\artilesdi\Documents\Unreal Projects\Pinball\Intermediate\Build\Win64\UE4Editor\Development\Pinball\UE4Editor-Pinball-0014.lib y objeto C:\Users\artilesdi\Documents\Unreal Projects\Pinball\Intermediate\Build\Win64\UE4Editor\Development\Pinball\UE4Editor-Pinball-0014.exp
-    [3/4] UE4Editor-Pinball-0014.dll
-       Creando biblioteca C:\Users\artilesdi\Documents\Unreal Projects\Pinball\Intermediate\Build\Win64\UE4Editor\Development\Pinball\UE4Editor-Pinball-0014.suppressed.lib y objeto C:\Users\artilesdi\Documents\Unreal Projects\Pinball\Intermediate\Build\Win64\UE4Editor\Development\Pinball\UE4Editor-Pinball-0014.suppressed.exp
+  Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 4 actions with 12 processes...
+    [1/4] Booster.cpp
+    [2/4] UE4Editor-Pinball-0007.lib
+       Creating library C:\Users\34682\Documents\Unreal Projects\Pinball\Intermediate\Build\Win64\UE4Editor\Development\Pinball\UE4Editor-Pinball-0007.lib and object C:\Users\34682\Documents\Unreal Projects\Pinball\Intermediate\Build\Win64\UE4Editor\Development\Pinball\UE4Editor-Pinball-0007.exp
+    [3/4] UE4Editor-Pinball-0007.dll
+       Creating library C:\Users\34682\Documents\Unreal Projects\Pinball\Intermediate\Build\Win64\UE4Editor\Development\Pinball\UE4Editor-Pinball-0007.suppressed.lib and object C:\Users\34682\Documents\Unreal Projects\Pinball\Intermediate\Build\Win64\UE4Editor\Development\Pinball\UE4Editor-Pinball-0007.suppressed.exp
     [4/4] PinballEditor.target
-  Total time in Parallel executor: 1,52 seconds
-  Total execution time: 2,40 seconds
+  Total time in Parallel executor: 0,95 seconds
+  Total execution time: 1,46 seconds

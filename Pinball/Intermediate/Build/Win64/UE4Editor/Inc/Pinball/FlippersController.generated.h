@@ -16,12 +16,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define Pinball_Source_Pinball_FlippersController_h_13_SPARSE_DATA
 #define Pinball_Source_Pinball_FlippersController_h_13_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execEndKickLeft); \
+	DECLARE_FUNCTION(execEndKickRight); \
 	DECLARE_FUNCTION(execKickRight); \
 	DECLARE_FUNCTION(execKickLeft);
 
 
 #define Pinball_Source_Pinball_FlippersController_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execEndKickLeft); \
+	DECLARE_FUNCTION(execEndKickRight); \
 	DECLARE_FUNCTION(execKickRight); \
 	DECLARE_FUNCTION(execKickLeft);
 

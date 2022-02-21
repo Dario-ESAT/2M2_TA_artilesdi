@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Pinball.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{714A2C8C-9D33-40B1-A76A-2A6C148E9251}</UniqueIdentifier>
+      <UniqueIdentifier>{08CB0574-1A2A-47ED-972B-F2A55E88DA2D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Pinball.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{2A77BCF3-80A6-438A-B806-13D001FE25FA}</UniqueIdentifier>
+      <UniqueIdentifier>{44B69FFF-9FF6-4399-A228-A17A3CB98546}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Pinball">
-      <UniqueIdentifier>{33601D29-32BA-49C5-B572-648D3414A8E5}</UniqueIdentifier>
+      <UniqueIdentifier>{B6490E86-43B2-4E31-887F-759FFBE64CF1}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Pinball\Ball.cpp">
       <Filter>Source\Pinball</Filter>
@@ -57,18 +57,30 @@
       <Filter>Source\Pinball</Filter>
     </ClInclude>
     <Filter Include="Source\Pinball\Private">
-      <UniqueIdentifier>{48BECF83-7158-40E1-A596-4735F1A33613}</UniqueIdentifier>
+      <UniqueIdentifier>{FE781C2E-50AD-40DD-86BD-FF5224370003}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Pinball\Private\BallLauncher.cpp">
+      <Filter>Source\Pinball\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Pinball\Private\Booster.cpp">
+      <Filter>Source\Pinball\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Pinball\Private\DeathPlace.cpp">
       <Filter>Source\Pinball\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Pinball\Private\GameModePinball.cpp">
       <Filter>Source\Pinball\Private</Filter>
     </ClCompile>
     <Filter Include="Source\Pinball\Public">
-      <UniqueIdentifier>{B667394D-EE8E-4B49-AE68-02C6B4E5F331}</UniqueIdentifier>
+      <UniqueIdentifier>{2DDF1293-6FD1-4E3D-B9E3-738C7774E7C3}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\Pinball\Public\BallLauncher.h">
+      <Filter>Source\Pinball\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Pinball\Public\Booster.h">
+      <Filter>Source\Pinball\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Pinball\Public\DeathPlace.h">
       <Filter>Source\Pinball\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\Pinball\Public\GameModePinball.h">

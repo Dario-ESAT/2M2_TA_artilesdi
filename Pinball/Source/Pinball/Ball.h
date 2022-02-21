@@ -17,7 +17,8 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Tonterias")
 	UStaticMeshComponent* SMComp_;
 
-	UStaticMeshComponent* Mesh_;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Tonterias")
+	AActor* InitialPosition_;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Tonterias")
 	FVector direction_;
@@ -25,6 +26,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Tonterias")
 	float force_;
 
+	UFUNCTION()
+	void ReturnToInitialPosition();
 
 protected:
 	// Called when the game starts or when spawned

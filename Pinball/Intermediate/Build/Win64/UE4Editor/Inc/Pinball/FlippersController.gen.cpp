@@ -21,6 +21,20 @@ void EmptyLinkFunctionForGeneratedCodeFlippersController() {}
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(AFlippersController::execEndKickLeft)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->EndKickLeft();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(AFlippersController::execEndKickRight)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->EndKickRight();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(AFlippersController::execKickRight)
 	{
 		P_FINISH;
@@ -39,10 +53,56 @@ void EmptyLinkFunctionForGeneratedCodeFlippersController() {}
 	{
 		UClass* Class = AFlippersController::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "EndKickLeft", &AFlippersController::execEndKickLeft },
+			{ "EndKickRight", &AFlippersController::execEndKickRight },
 			{ "KickLeft", &AFlippersController::execKickLeft },
 			{ "KickRight", &AFlippersController::execKickRight },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AFlippersController_EndKickLeft_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFlippersController_EndKickLeft_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "FlippersController.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AFlippersController_EndKickLeft_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFlippersController, nullptr, "EndKickLeft", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AFlippersController_EndKickLeft_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AFlippersController_EndKickLeft_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AFlippersController_EndKickLeft()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFlippersController_EndKickLeft_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AFlippersController_EndKickRight_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFlippersController_EndKickRight_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "FlippersController.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AFlippersController_EndKickRight_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFlippersController, nullptr, "EndKickRight", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AFlippersController_EndKickRight_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AFlippersController_EndKickRight_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AFlippersController_EndKickRight()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFlippersController_EndKickRight_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_AFlippersController_KickLeft_Statics
 	{
@@ -140,6 +200,8 @@ void EmptyLinkFunctionForGeneratedCodeFlippersController() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_Pinball,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AFlippersController_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AFlippersController_EndKickLeft, "EndKickLeft" }, // 1880752218
+		{ &Z_Construct_UFunction_AFlippersController_EndKickRight, "EndKickRight" }, // 968972804
 		{ &Z_Construct_UFunction_AFlippersController_KickLeft, "KickLeft" }, // 835506673
 		{ &Z_Construct_UFunction_AFlippersController_KickRight, "KickRight" }, // 941742150
 	};
@@ -251,7 +313,7 @@ void EmptyLinkFunctionForGeneratedCodeFlippersController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFlippersController, 1414425793);
+	IMPLEMENT_CLASS(AFlippersController, 1596090029);
 	template<> PINBALL_API UClass* StaticClass<AFlippersController>()
 	{
 		return AFlippersController::StaticClass();

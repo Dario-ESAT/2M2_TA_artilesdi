@@ -29,8 +29,11 @@ AFlippersController::AFlippersController()
 
 	camera_->SetupAttachment(center_pivot_);
 
-	left_flipper_up_ = false;
-	right_flipper_up_ = false;
+	left_flipper_is_up_ = false;
+	right_flipper_is_up_ = false;
+
+	left_flipper_down_ = true;
+	right_flipper_down_ = true;
 
 	count_left_ = 0.0f;
 	count_right_ = 0.0f;
@@ -48,44 +51,61 @@ void AFlippersController::BeginPlay()
 void AFlippersController::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	if(left_flipper_up_) {
-		count_left_ += DeltaTime;
-		left_flipper_pivot_->SetWorldRotation(
-			FRotator(
-				0.0f,
-				0.0f,
-				FMath::Lerp(right_flipper_pivot_->GetRelativeTransform().Rotator().Roll,-rotation_,count_left_ / time_to_rotate_)
-			)
-		);
-	} else {
-		count_left_ += DeltaTime;
-		left_flipper_pivot_->SetWorldRotation(
-			FRotator(
-				0.0f,
-				0.0f,
-				FMath::Lerp(-rotation_, 0.0f, count_left_ / time_to_rotate_)
-			)
-		);
-	}
 
-	if (right_flipper_up_) {
+	if(left_flipper_going_up_) {
 		count_left_ += DeltaTime;
+		left_flipper_pivot_->SetWorldRotation(
+			FRotator(
+				0.0f,
+				0.0f,
+				FMath::Lerp(left_flipper_pivot_->GetRelativeTransform().Rotator().Roll, -rotation_, count_left_ / time_to_rotate_)
+			)
+		);
+		if (left_flipper_pivot_->GetRelativeTransform().Rotator().Roll <= -rotation_) {
+			left_flipper_is_up_ = true;
+			left_flipper_going_up_ = false;
+		}
+	}
+	else if (!left_flipper_down_ && !left_flipper_is_up_) {
+		count_left_ += DeltaTime;
+		left_flipper_pivot_->SetWorldRotation(
+			FRotator(
+				0.0f,
+				0.0f,
+				FMath::Lerp(left_flipper_pivot_->GetRelativeTransform().Rotator().Roll, 0.0f, count_left_ / time_to_rotate_)
+			)
+		);
+		if (left_flipper_pivot_->GetRelativeTransform().Rotator().Roll >= 0.0f) {
+			left_flipper_is_up_ = true;
+		}
+	}
+	
+	if(right_flipper_going_up_) {
+		count_right_ += DeltaTime;
 		right_flipper_pivot_->SetWorldRotation(
 			FRotator(
 				0.0f,
 				0.0f,
-				FMath::Lerp(0.0f, rotation_, count_left_ / time_to_rotate_)
+				FMath::Lerp(right_flipper_pivot_->GetRelativeTransform().Rotator().Roll, rotation_, count_right_ / time_to_rotate_)
 			)
 		);
-	} else {
-		count_left_ += DeltaTime;
+		if (right_flipper_pivot_->GetRelativeTransform().Rotator().Roll >= rotation_) {
+			right_flipper_is_up_ = true;
+			right_flipper_going_up_ = false;
+		}
+	}
+	else if (!right_flipper_down_ && !right_flipper_is_up_) {
+		count_right_ += DeltaTime;
 		right_flipper_pivot_->SetWorldRotation(
 			FRotator(
 				0.0f,
 				0.0f,
-				FMath::Lerp(rotation_, 0.0f, count_left_ / time_to_rotate_)
+				FMath::Lerp(right_flipper_pivot_->GetRelativeTransform().Rotator().Roll, 0.0f, count_right_ / time_to_rotate_)
 			)
 		);
+		if (right_flipper_pivot_->GetRelativeTransform().Rotator().Roll <= 0.0f) {
+			right_flipper_down_ = true;
+		}
 	}
 }
 
@@ -96,28 +116,33 @@ void AFlippersController::SetupPlayerInputComponent(UInputComponent* PlayerInput
 
 	PlayerInputComponent->BindAction("Left", IE_Pressed, this, &AFlippersController::KickLeft).bConsumeInput = false;
 	PlayerInputComponent->BindAction("Right", IE_Pressed, this, &AFlippersController::KickRight).bConsumeInput = false;
-	PlayerInputComponent->BindAction("Right", IE_Released, this, &AFlippersController::KickRight).bConsumeInput = false;
-	PlayerInputComponent->BindAction("Left", IE_Released, this, &AFlippersController::KickRight).bConsumeInput = false;
+
+	PlayerInputComponent->BindAction("Left", IE_Released, this, &AFlippersController::EndKickLeft).bConsumeInput = false;
+	PlayerInputComponent->BindAction("Right", IE_Released, this, &AFlippersController::EndKickRight).bConsumeInput = false;
 }
 
 void AFlippersController::KickLeft() {
-	left_flipper_up_ = true;
-
+	count_left_ = 0;
+	left_flipper_going_up_ = true;
+	left_flipper_down_ = false;
 }
 
 void AFlippersController::KickRight() {
-	right_flipper_pivot_->SetWorldRotation(FRotator(0.0f, 00.0f, rotation_));
-	right_flipper_up_ = true;
-
+	count_right_ = 0;
+	right_flipper_going_up_ = true;
+	right_flipper_down_ = false;
 }
 
 void AFlippersController::EndKickLeft() {
 	count_left_ = 0;
-	left_flipper_up_ = false;
+	left_flipper_is_up_ = false;
+	left_flipper_going_up_ = false;
 }
 
 void AFlippersController::EndKickRight() {
 	count_right_ = 0;
+	right_flipper_is_up_ = false;
+	right_flipper_going_up_ = false;
 }
 
 
