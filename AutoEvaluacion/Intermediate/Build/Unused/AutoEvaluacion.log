@@ -1,11 +1,12 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\artilesdi\Documents\Unreal Projects).
   Building AutoEvaluacionEditor...
   Using Visual Studio 2019 14.29.30038 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 3 actions with 4 processes...
-    [1/3] UE4Editor-AutoEvaluacion-0026.lib
-       Creando biblioteca C:\Users\artilesdi\Documents\Unreal Projects\AutoEvaluacion\Intermediate\Build\Win64\UE4Editor\Development\AutoEvaluacion\UE4Editor-AutoEvaluacion-0026.lib y objeto C:\Users\artilesdi\Documents\Unreal Projects\AutoEvaluacion\Intermediate\Build\Win64\UE4Editor\Development\AutoEvaluacion\UE4Editor-AutoEvaluacion-0026.exp
-    [2/3] UE4Editor-AutoEvaluacion-0026.dll
-       Creando biblioteca C:\Users\artilesdi\Documents\Unreal Projects\AutoEvaluacion\Intermediate\Build\Win64\UE4Editor\Development\AutoEvaluacion\UE4Editor-AutoEvaluacion-0026.suppressed.lib y objeto C:\Users\artilesdi\Documents\Unreal Projects\AutoEvaluacion\Intermediate\Build\Win64\UE4Editor\Development\AutoEvaluacion\UE4Editor-AutoEvaluacion-0026.suppressed.exp
-    [3/3] AutoEvaluacionEditor.target
-  Total time in Parallel executor: 1,13 seconds
-  Total execution time: 2,01 seconds
+  Building 4 actions with 4 processes...
+    [1/4] Bola.gen.cpp
+    [2/4] UE4Editor-AutoEvaluacion-0028.lib
+       Creando biblioteca C:\Users\artilesdi\Documents\Unreal Projects\AutoEvaluacion\Intermediate\Build\Win64\UE4Editor\Development\AutoEvaluacion\UE4Editor-AutoEvaluacion-0028.lib y objeto C:\Users\artilesdi\Documents\Unreal Projects\AutoEvaluacion\Intermediate\Build\Win64\UE4Editor\Development\AutoEvaluacion\UE4Editor-AutoEvaluacion-0028.exp
+    [3/4] UE4Editor-AutoEvaluacion-0028.dll
+       Creando biblioteca C:\Users\artilesdi\Documents\Unreal Projects\AutoEvaluacion\Intermediate\Build\Win64\UE4Editor\Development\AutoEvaluacion\UE4Editor-AutoEvaluacion-0028.suppressed.lib y objeto C:\Users\artilesdi\Documents\Unreal Projects\AutoEvaluacion\Intermediate\Build\Win64\UE4Editor\Development\AutoEvaluacion\UE4Editor-AutoEvaluacion-0028.suppressed.exp
+    [4/4] AutoEvaluacionEditor.target
+  Total time in Parallel executor: 2,19 seconds
+  Total execution time: 3,01 seconds

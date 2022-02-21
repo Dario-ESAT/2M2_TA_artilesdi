@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeAutoEvaluacion_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xA7C98FD6,
+				0x98E9D853,
 				0x3B2AD7C8,
 				METADATA_PARAMS(nullptr, 0)
 			};

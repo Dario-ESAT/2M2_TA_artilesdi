@@ -8,14 +8,26 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPrimitiveComponent;
+class AActor;
+struct FVector;
+struct FHitResult;
 #ifdef AUTOEVALUACION_Bola_generated_h
 #error "Bola.generated.h already included, missing '#pragma once' in Bola.h"
 #endif
 #define AUTOEVALUACION_Bola_generated_h
 
 #define AutoEvaluacion_Source_AutoEvaluacion_Public_Bola_h_12_SPARSE_DATA
-#define AutoEvaluacion_Source_AutoEvaluacion_Public_Bola_h_12_RPC_WRAPPERS
-#define AutoEvaluacion_Source_AutoEvaluacion_Public_Bola_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define AutoEvaluacion_Source_AutoEvaluacion_Public_Bola_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHitCharacter);
+
+
+#define AutoEvaluacion_Source_AutoEvaluacion_Public_Bola_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHitCharacter);
+
+
 #define AutoEvaluacion_Source_AutoEvaluacion_Public_Bola_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABola(); \
