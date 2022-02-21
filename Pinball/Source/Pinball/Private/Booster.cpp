@@ -16,7 +16,6 @@ ABooster::ABooster()
 
 	RootComponent = SMComp_;
 
-	SMComp_->OnComponentHit.AddDynamic(this, &ABooster::ChocaBola);
 }
 
 
@@ -25,6 +24,7 @@ void ABooster::BeginPlay()
 {
 	Super::BeginPlay();
 
+	SMComp_->OnComponentHit.AddDynamic(this, &ABooster::ChocaBola);
 }
 
 // Called every frame

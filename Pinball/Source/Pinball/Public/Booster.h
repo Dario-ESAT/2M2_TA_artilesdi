@@ -20,12 +20,6 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AABooster")
 	float booster_force_;
 
-	UFUNCTION()
-
-	void ChocaBola(UPrimitiveComponent* HitComponent, AActor*
-			OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const
-			FHitResult& Hit);
-
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -33,5 +27,10 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	UFUNCTION()
+	void ChocaBola(UPrimitiveComponent* HitComponent, AActor*
+			OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const
+			FHitResult& Hit);
 
 };
