@@ -1,0 +1,20 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-AutoEvaluacion-0023.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\artilesdi\Documents\Unreal Projects\AutoEvaluacion\Intermediate\Build\Win64\AutoEvaluacionEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\artilesdi\Documents\Unreal Projects\AutoEvaluacion\Intermediate\Build\Win64\UE4Editor\Development\AutoEvaluacion\Bola.cpp.obj"
+"C:\Users\artilesdi\Documents\Unreal Projects\AutoEvaluacion\Intermediate\Build\Win64\UE4Editor\Development\AutoEvaluacion\Personajillo.cpp.obj"
+"C:\Users\artilesdi\Documents\Unreal Projects\AutoEvaluacion\Intermediate\Build\Win64\UE4Editor\Development\AutoEvaluacion\AutoEvaluacion.cpp.obj"
+"C:\Users\artilesdi\Documents\Unreal Projects\AutoEvaluacion\Intermediate\Build\Win64\UE4Editor\Development\AutoEvaluacion\AutoEvaluacionGameModeBase.cpp.obj"
+"C:\Users\artilesdi\Documents\Unreal Projects\AutoEvaluacion\Intermediate\Build\Win64\UE4Editor\Development\AutoEvaluacion\AutoEvaluacion.init.gen.cpp.obj"
+"C:\Users\artilesdi\Documents\Unreal Projects\AutoEvaluacion\Intermediate\Build\Win64\UE4Editor\Development\AutoEvaluacion\AutoEvaluacionGameModeBase.gen.cpp.obj"
+"C:\Users\artilesdi\Documents\Unreal Projects\AutoEvaluacion\Intermediate\Build\Win64\UE4Editor\Development\AutoEvaluacion\Bola.gen.cpp.obj"
+"C:\Users\artilesdi\Documents\Unreal Projects\AutoEvaluacion\Intermediate\Build\Win64\UE4Editor\Development\AutoEvaluacion\Personajillo.gen.cpp.obj"
+"C:\Users\artilesdi\Documents\Unreal Projects\AutoEvaluacion\Intermediate\Build\Win64\UE4Editor\Development\AutoEvaluacion\Default.rc2.res"
+/OUT:"C:\Users\artilesdi\Documents\Unreal Projects\AutoEvaluacion\Intermediate\Build\Win64\UE4Editor\Development\AutoEvaluacion\UE4Editor-AutoEvaluacion-0023.lib"
+/INCLUDE:IMPLEMENT_MODULE_AutoEvaluacion

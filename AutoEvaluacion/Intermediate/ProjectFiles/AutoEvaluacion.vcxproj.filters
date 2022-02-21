@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\AutoEvaluacion.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{8496D902-EACD-4B0E-9E3B-8C3798CF5A6C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\AutoEvaluacion.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\AutoEvaluacionEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{9B5912FB-675A-460E-A706-2F34E832844D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\AutoEvaluacion">
+      <UniqueIdentifier>{3513A3C2-56C0-40F1-8D40-158B9BC3114C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\AutoEvaluacion\AutoEvaluacion.Build.cs">
+      <Filter>Source\AutoEvaluacion</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\AutoEvaluacion\AutoEvaluacion.cpp">
+      <Filter>Source\AutoEvaluacion</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AutoEvaluacion\AutoEvaluacion.h">
+      <Filter>Source\AutoEvaluacion</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AutoEvaluacion\AutoEvaluacionGameModeBase.cpp">
+      <Filter>Source\AutoEvaluacion</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AutoEvaluacion\AutoEvaluacionGameModeBase.h">
+      <Filter>Source\AutoEvaluacion</Filter>
+    </ClInclude>
+    <Filter Include="Source\AutoEvaluacion\Private">
+      <UniqueIdentifier>{5D609357-5440-48BD-B764-96805770547C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\AutoEvaluacion\Private\Bola.cpp">
+      <Filter>Source\AutoEvaluacion\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\AutoEvaluacion\Private\Personajillo.cpp">
+      <Filter>Source\AutoEvaluacion\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\AutoEvaluacion\Public">
+      <UniqueIdentifier>{CB4FA4BE-60B2-4BF3-8E1A-4403ADFC3420}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\AutoEvaluacion\Public\Bola.h">
+      <Filter>Source\AutoEvaluacion\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\AutoEvaluacion\Public\Personajillo.h">
+      <Filter>Source\AutoEvaluacion\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "AutoEvaluacion",
+			"Path": "C:\\Users\\artilesdi\\Documents\\Unreal Projects\\AutoEvaluacion\\Source\\AutoEvaluacion.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "AutoEvaluacionEditor",
+			"Path": "C:\\Users\\artilesdi\\Documents\\Unreal Projects\\AutoEvaluacion\\Source\\AutoEvaluacionEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

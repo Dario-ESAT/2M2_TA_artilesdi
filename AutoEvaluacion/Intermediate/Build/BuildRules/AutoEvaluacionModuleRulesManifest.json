@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\artilesdi\\Documents\\Unreal Projects\\AutoEvaluacion\\Source\\AutoEvaluacion\\AutoEvaluacion.Build.cs",
+		"C:\\Users\\artilesdi\\Documents\\Unreal Projects\\AutoEvaluacion\\Source\\AutoEvaluacion.Target.cs",
+		"C:\\Users\\artilesdi\\Documents\\Unreal Projects\\AutoEvaluacion\\Source\\AutoEvaluacionEditor.Target.cs"
+	],
+	"EngineVersion": "4.26.2"
+}
