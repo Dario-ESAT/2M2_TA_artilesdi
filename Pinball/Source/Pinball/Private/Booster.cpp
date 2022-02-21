@@ -12,6 +12,7 @@ ABooster::ABooster()
 	SMComp_ = CreateDefaultSubobject<UStaticMeshComponent>(
 		TEXT("SMComp")
 		);
+	SMComp_->SetNotifyRigidBodyCollision(true);
 
 	RootComponent = SMComp_;
 
