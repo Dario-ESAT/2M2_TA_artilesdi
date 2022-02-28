@@ -26,8 +26,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Tonterias")
 	float force_;
 
-	UFUNCTION()
-	void ReturnToInitialPosition();
+	bool simulando_;
 
 protected:
 	// Called when the game starts or when spawned
@@ -37,4 +36,9 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	UFUNCTION()
+	void ShootBall();
+
+	UFUNCTION()
+	void ReturnToInitialPosition();
 };

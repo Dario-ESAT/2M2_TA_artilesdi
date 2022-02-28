@@ -28,11 +28,19 @@ void EmptyLinkFunctionForGeneratedCodeBall() {}
 		P_THIS->ReturnToInitialPosition();
 		P_NATIVE_END;
 	}
+	DEFINE_FUNCTION(ABall::execShootBall)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->ShootBall();
+		P_NATIVE_END;
+	}
 	void ABall::StaticRegisterNativesABall()
 	{
 		UClass* Class = ABall::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "ReturnToInitialPosition", &ABall::execReturnToInitialPosition },
+			{ "ShootBall", &ABall::execShootBall },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -55,6 +63,28 @@ void EmptyLinkFunctionForGeneratedCodeBall() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABall_ReturnToInitialPosition_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ABall_ShootBall_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABall_ShootBall_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Ball.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABall_ShootBall_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABall, nullptr, "ShootBall", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABall_ShootBall_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ABall_ShootBall_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ABall_ShootBall()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABall_ShootBall_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -95,6 +125,7 @@ void EmptyLinkFunctionForGeneratedCodeBall() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ABall_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_ABall_ReturnToInitialPosition, "ReturnToInitialPosition" }, // 295006694
+		{ &Z_Construct_UFunction_ABall_ShootBall, "ShootBall" }, // 891382650
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABall_Statics::Class_MetaDataParams[] = {
@@ -164,7 +195,7 @@ void EmptyLinkFunctionForGeneratedCodeBall() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABall, 727952054);
+	IMPLEMENT_CLASS(ABall, 3671253229);
 	template<> PINBALL_API UClass* StaticClass<ABall>()
 	{
 		return ABall::StaticClass();

@@ -16,12 +16,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define Pinball_Source_Pinball_Ball_h_12_SPARSE_DATA
 #define Pinball_Source_Pinball_Ball_h_12_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execReturnToInitialPosition);
+	DECLARE_FUNCTION(execReturnToInitialPosition); \
+	DECLARE_FUNCTION(execShootBall);
 
 
 #define Pinball_Source_Pinball_Ball_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execReturnToInitialPosition);
+	DECLARE_FUNCTION(execReturnToInitialPosition); \
+	DECLARE_FUNCTION(execShootBall);
 
 
 #define Pinball_Source_Pinball_Ball_h_12_INCLASS_NO_PURE_DECLS \

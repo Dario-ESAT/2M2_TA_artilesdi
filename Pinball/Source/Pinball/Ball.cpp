@@ -2,6 +2,7 @@
 
 
 #include "Ball.h"
+#include "Kismet/GameplayStatics.h"
 
 // Sets default values
 ABall::ABall()
@@ -12,9 +13,8 @@ ABall::ABall()
 	SMComp_ = CreateDefaultSubobject<UStaticMeshComponent>(
 		TEXT("SMComp")
 		);
-	SMComp_->SetSimulatePhysics(true);
 	RootComponent = SMComp_;
-
+	simulando_ = false;
 }
 
 // Called when the game starts or when spawned
@@ -22,9 +22,12 @@ void ABall::BeginPlay()
 {
 	Super::BeginPlay();
 
-	SetActorLocation(InitialPosition_->GetActorLocation());
+	ReturnToInitialPosition();
+	EnableInput(UGameplayStatics::GetPlayerController(GetWorld(), 0));
 
-	SMComp_->AddForce(direction_ * force_ * SMComp_->GetMass());
+	check(InputComponent);
+
+	InputComponent->BindAction("Shoot", IE_Pressed, this, &ABall::ShootBall).bConsumeInput = false;
 
 }
 
@@ -35,8 +38,17 @@ void ABall::Tick(float DeltaTime)
 
 }
 
+void ABall::ShootBall() {
 
+	if (!simulando_) {
+		simulando_ = true;
+		SMComp_->SetSimulatePhysics(true);
+		SMComp_->AddForce(direction_ * force_ * SMComp_->GetMass());
+	}
+}
 
 void ABall::ReturnToInitialPosition() {
+	simulando_ = false;
+	SMComp_->SetSimulatePhysics(false);
 	SetActorLocation(InitialPosition_->GetActorLocation());
 }

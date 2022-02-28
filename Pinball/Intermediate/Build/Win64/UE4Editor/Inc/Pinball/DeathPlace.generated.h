@@ -8,14 +8,26 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPrimitiveComponent;
+class AActor;
+struct FVector;
+struct FHitResult;
 #ifdef PINBALL_DeathPlace_generated_h
 #error "DeathPlace.generated.h already included, missing '#pragma once' in DeathPlace.h"
 #endif
 #define PINBALL_DeathPlace_generated_h
 
 #define Pinball_Source_Pinball_Public_DeathPlace_h_12_SPARSE_DATA
-#define Pinball_Source_Pinball_Public_DeathPlace_h_12_RPC_WRAPPERS
-#define Pinball_Source_Pinball_Public_DeathPlace_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define Pinball_Source_Pinball_Public_DeathPlace_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execMatado);
+
+
+#define Pinball_Source_Pinball_Public_DeathPlace_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execMatado);
+
+
 #define Pinball_Source_Pinball_Public_DeathPlace_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesADeathPlace(); \
