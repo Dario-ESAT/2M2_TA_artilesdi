@@ -6,6 +6,7 @@
 #include "Components/SceneComponent.h"
 #include "Item.h"
 #include "Engine/World.h"
+#include "Kismet/GameplayStatics.h"
 #include "InventoryComponent.generated.h"
 
 USTRUCT(BlueprintType)
@@ -17,7 +18,7 @@ struct FInventoryInfo {
 };
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
-class INVENTARIO_API UInventoryComponent : public USceneComponent {
+class INVENTARIO_API UInventoryComponent : public UActorComponent {
 	GENERATED_BODY()
 
 public:	

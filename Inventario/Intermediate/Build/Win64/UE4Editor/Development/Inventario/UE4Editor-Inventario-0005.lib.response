@@ -3,7 +3,7 @@
 /MACHINE:x64
 /SUBSYSTEM:WINDOWS
 /DEF
-/NAME:"UE4Editor-Inventario-0004.dll"
+/NAME:"UE4Editor-Inventario-0005.dll"
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\Users\artilesdi\Documents\Unreal Projects\Inventario\Intermediate\Build\Win64\InventarioEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
@@ -24,5 +24,5 @@
 "C:\Users\artilesdi\Documents\Unreal Projects\Inventario\Intermediate\Build\Win64\UE4Editor\Development\Inventario\Item.gen.cpp.obj"
 "C:\Users\artilesdi\Documents\Unreal Projects\Inventario\Intermediate\Build\Win64\UE4Editor\Development\Inventario\PickUpItem.gen.cpp.obj"
 "C:\Users\artilesdi\Documents\Unreal Projects\Inventario\Intermediate\Build\Win64\UE4Editor\Development\Inventario\Default.rc2.res"
-/OUT:"C:\Users\artilesdi\Documents\Unreal Projects\Inventario\Intermediate\Build\Win64\UE4Editor\Development\Inventario\UE4Editor-Inventario-0004.lib"
+/OUT:"C:\Users\artilesdi\Documents\Unreal Projects\Inventario\Intermediate\Build\Win64\UE4Editor\Development\Inventario\UE4Editor-Inventario-0005.lib"
 /INCLUDE:IMPLEMENT_MODULE_Inventario

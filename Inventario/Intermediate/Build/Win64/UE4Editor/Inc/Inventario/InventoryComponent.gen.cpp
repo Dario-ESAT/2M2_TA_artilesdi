@@ -18,7 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeInventoryComponent() {}
 	INVENTARIO_API UClass* Z_Construct_UClass_UItem_NoRegister();
 	INVENTARIO_API UClass* Z_Construct_UClass_UInventoryComponent_NoRegister();
 	INVENTARIO_API UClass* Z_Construct_UClass_UInventoryComponent();
-	ENGINE_API UClass* Z_Construct_UClass_USceneComponent();
+	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 // End Cross Module References
 class UScriptStruct* FInventoryInfo::StaticStruct()
 {
@@ -133,14 +133,13 @@ static struct FScriptStruct_Inventario_StaticRegisterNativesFInventoryInfo
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
 	UObject* (*const Z_Construct_UClass_UInventoryComponent_Statics::DependentSingletons[])() = {
-		(UObject* (*)())Z_Construct_UClass_USceneComponent,
+		(UObject* (*)())Z_Construct_UClass_UActorComponent,
 		(UObject* (*)())Z_Construct_UPackage__Script_Inventario,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UInventoryComponent_Statics::Class_MetaDataParams[] = {
 		{ "BlueprintSpawnableComponent", "" },
 		{ "ClassGroupNames", "Custom" },
-		{ "HideCategories", "Trigger PhysicsVolume" },
 		{ "IncludePath", "InventoryComponent.h" },
 		{ "ModuleRelativePath", "Public/InventoryComponent.h" },
 	};
@@ -182,7 +181,7 @@ static struct FScriptStruct_Inventario_StaticRegisterNativesFInventoryInfo
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UInventoryComponent, 3052442090);
+	IMPLEMENT_CLASS(UInventoryComponent, 3130588568);
 	template<> INVENTARIO_API UClass* StaticClass<UInventoryComponent>()
 	{
 		return UInventoryComponent::StaticClass();

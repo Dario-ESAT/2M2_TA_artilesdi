@@ -947,3 +947,10 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.02.28-19.01.49:168][440]LogSavePackage: Moving '../../../../../../Users/artilesdi/Documents/Unreal Projects/Inventario/Saved/FirstPersonExampleMap_Auto22CFC72CB49C8521E8605CD8B5F0A3D5C.tmp' to '../../../../../../Users/artilesdi/Documents/Unreal Projects/Inventario/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto2.umap'
 [2022.02.28-19.01.49:174][440]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.072
 [2022.02.28-19.01.49:174][440]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.072
+[2022.02.28-19.04.50:387][949]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2022.02.28-19.04.50:408][949]LogSavePackage: Moving '../../../../../../Users/artilesdi/Documents/Unreal Projects/Inventario/Saved/FirstPersonExampleMap5A2D9D084C27B85DA9B8199204A818A2.tmp' to '../../../../../../Users/artilesdi/Documents/Unreal Projects/Inventario/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2022.02.28-19.04.51:263][949]LogSavePackage: Moving '../../../../../../Users/artilesdi/Documents/Unreal Projects/Inventario/Saved/FirstPersonExampleMap_BuiltData98049D684236D70A706436AD0D8B8728.tmp' to '../../../../../../Users/artilesdi/Documents/Unreal Projects/Inventario/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2022.02.28-19.04.51:285][949]AssetCheck: New page: Asset Save: multiple assets
+[2022.02.28-19.04.51:285][949]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
+[2022.02.28-19.04.51:285][949]LogContentValidation: Display: Validating World /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2022.02.28-19.04.55:800][263]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
