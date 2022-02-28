@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Inventario.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F2E1566C-4177-45C8-9D71-778E76C4B291}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Inventario.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\InventarioEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{92E1F600-0D45-4E24-87EB-58AABDF80F53}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Inventario">
+      <UniqueIdentifier>{DA495820-BB38-4871-BC49-C4979699926B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Inventario\Inventario.Build.cs">
+      <Filter>Source\Inventario</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Inventario\Inventario.cpp">
+      <Filter>Source\Inventario</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Inventario\Inventario.h">
+      <Filter>Source\Inventario</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Inventario\InventarioCharacter.cpp">
+      <Filter>Source\Inventario</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Inventario\InventarioCharacter.h">
+      <Filter>Source\Inventario</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Inventario\InventarioGameMode.cpp">
+      <Filter>Source\Inventario</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Inventario\InventarioGameMode.h">
+      <Filter>Source\Inventario</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Inventario\InventarioHUD.cpp">
+      <Filter>Source\Inventario</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Inventario\InventarioHUD.h">
+      <Filter>Source\Inventario</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Inventario\InventarioProjectile.cpp">
+      <Filter>Source\Inventario</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Inventario\InventarioProjectile.h">
+      <Filter>Source\Inventario</Filter>
+    </ClInclude>
+    <Filter Include="Source\Inventario\Private">
+      <UniqueIdentifier>{2839D738-39E2-4F1A-A47A-57912F2BFE00}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Inventario\Private\InventoryComponent.cpp">
+      <Filter>Source\Inventario\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Inventario\Private\Item.cpp">
+      <Filter>Source\Inventario\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Inventario\Private\PickUpItem.cpp">
+      <Filter>Source\Inventario\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Inventario\Public">
+      <UniqueIdentifier>{4BDEBBA7-0B85-403C-95B7-01A6C52C9315}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Inventario\Public\InventoryComponent.h">
+      <Filter>Source\Inventario\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Inventario\Public\Item.h">
+      <Filter>Source\Inventario\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Inventario\Public\PickUpItem.h">
+      <Filter>Source\Inventario\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

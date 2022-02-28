@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Inventario",
+			"Path": "C:\\Users\\artilesdi\\Documents\\Unreal Projects\\Inventario\\Source\\Inventario.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "InventarioEditor",
+			"Path": "C:\\Users\\artilesdi\\Documents\\Unreal Projects\\Inventario\\Source\\InventarioEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
