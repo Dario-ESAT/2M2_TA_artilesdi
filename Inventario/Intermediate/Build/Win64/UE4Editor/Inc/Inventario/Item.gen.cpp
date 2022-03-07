@@ -13,19 +13,19 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeItem() {}
 // Cross Module References
-	INVENTARIO_API UClass* Z_Construct_UClass_UItem_NoRegister();
-	INVENTARIO_API UClass* Z_Construct_UClass_UItem();
-	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
+	INVENTARIO_API UClass* Z_Construct_UClass_AItem_NoRegister();
+	INVENTARIO_API UClass* Z_Construct_UClass_AItem();
+	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_Inventario();
 // End Cross Module References
-	void UItem::StaticRegisterNativesUItem()
+	void AItem::StaticRegisterNativesAItem()
 	{
 	}
-	UClass* Z_Construct_UClass_UItem_NoRegister()
+	UClass* Z_Construct_UClass_AItem_NoRegister()
 	{
-		return UItem::StaticClass();
+		return AItem::StaticClass();
 	}
-	struct Z_Construct_UClass_UItem_Statics
+	struct Z_Construct_UClass_AItem_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
 #if WITH_METADATA
@@ -34,23 +34,21 @@ void EmptyLinkFunctionForGeneratedCodeItem() {}
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
-	UObject* (*const Z_Construct_UClass_UItem_Statics::DependentSingletons[])() = {
-		(UObject* (*)())Z_Construct_UClass_UActorComponent,
+	UObject* (*const Z_Construct_UClass_AItem_Statics::DependentSingletons[])() = {
+		(UObject* (*)())Z_Construct_UClass_AActor,
 		(UObject* (*)())Z_Construct_UPackage__Script_Inventario,
 	};
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UItem_Statics::Class_MetaDataParams[] = {
-		{ "BlueprintSpawnableComponent", "" },
-		{ "ClassGroupNames", "Custom" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AItem_Statics::Class_MetaDataParams[] = {
 		{ "IncludePath", "Item.h" },
 		{ "ModuleRelativePath", "Public/Item.h" },
 	};
 #endif
-	const FCppClassTypeInfoStatic Z_Construct_UClass_UItem_Statics::StaticCppClassTypeInfo = {
-		TCppClassTypeTraits<UItem>::IsAbstract,
+	const FCppClassTypeInfoStatic Z_Construct_UClass_AItem_Statics::StaticCppClassTypeInfo = {
+		TCppClassTypeTraits<AItem>::IsAbstract,
 	};
-	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_UItem_Statics::ClassParams = {
-		&UItem::StaticClass,
+	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_AItem_Statics::ClassParams = {
+		&AItem::StaticClass,
 		"Engine",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
@@ -61,25 +59,25 @@ void EmptyLinkFunctionForGeneratedCodeItem() {}
 		0,
 		0,
 		0,
-		0x00B000A4u,
-		METADATA_PARAMS(Z_Construct_UClass_UItem_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UItem_Statics::Class_MetaDataParams))
+		0x009000A4u,
+		METADATA_PARAMS(Z_Construct_UClass_AItem_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AItem_Statics::Class_MetaDataParams))
 	};
-	UClass* Z_Construct_UClass_UItem()
+	UClass* Z_Construct_UClass_AItem()
 	{
 		static UClass* OuterClass = nullptr;
 		if (!OuterClass)
 		{
-			UE4CodeGen_Private::ConstructUClass(OuterClass, Z_Construct_UClass_UItem_Statics::ClassParams);
+			UE4CodeGen_Private::ConstructUClass(OuterClass, Z_Construct_UClass_AItem_Statics::ClassParams);
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UItem, 1349011460);
-	template<> INVENTARIO_API UClass* StaticClass<UItem>()
+	IMPLEMENT_CLASS(AItem, 4205720017);
+	template<> INVENTARIO_API UClass* StaticClass<AItem>()
 	{
-		return UItem::StaticClass();
+		return AItem::StaticClass();
 	}
-	static FCompiledInDefer Z_CompiledInDefer_UClass_UItem(Z_Construct_UClass_UItem, &UItem::StaticClass, TEXT("/Script/Inventario"), TEXT("UItem"), false, nullptr, nullptr, nullptr);
-	DEFINE_VTABLE_PTR_HELPER_CTOR(UItem);
+	static FCompiledInDefer Z_CompiledInDefer_UClass_AItem(Z_Construct_UClass_AItem, &AItem::StaticClass, TEXT("/Script/Inventario"), TEXT("AItem"), false, nullptr, nullptr, nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(AItem);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #ifdef _MSC_VER
 #pragma warning (pop)

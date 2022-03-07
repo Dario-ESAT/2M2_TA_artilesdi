@@ -3,32 +3,28 @@
 
 #include "Item.h"
 
-// Sets default values for this component's properties
-UItem::UItem()
+// Sets default values
+AItem::AItem()
 {
-	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
-	// off to improve performance if you don't need them.
-	PrimaryComponentTick.bCanEverTick = true;
-
-	// ...
+ 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	PrimaryActorTick.bCanEverTick = true;
+	SMComp_ = CreateDefaultSubobject<UStaticMeshComponent>(
+		TEXT("SMComp")
+		);
+	RootComponent = SMComp_;
 }
 
-
-// Called when the game starts
-void UItem::BeginPlay()
+// Called when the game starts or when spawned
+void AItem::BeginPlay()
 {
 	Super::BeginPlay();
-
-	// ...
 	
 }
 
-
 // Called every frame
-void UItem::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
+void AItem::Tick(float DeltaTime)
 {
-	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
+	Super::Tick(DeltaTime);
 
-	// ...
 }
 

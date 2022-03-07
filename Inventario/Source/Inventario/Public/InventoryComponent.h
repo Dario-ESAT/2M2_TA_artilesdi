@@ -35,8 +35,8 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
-	bool AddItem();
+	void TakeItem();
 
-	UItem* RemoveItem();
+	void DropItem();
 		
 };

@@ -3,26 +3,25 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Components/ActorComponent.h"
+#include "GameFramework/Actor.h"
 #include "Item.generated.h"
 
-
-UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
-class INVENTARIO_API UItem : public UActorComponent
+UCLASS()
+class INVENTARIO_API AItem : public AActor, public IPickUpItem
 {
 	GENERATED_BODY()
-
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Forma")
+	UStaticMeshComponent* SMComp_;
 public:	
-	// Sets default values for this component's properties
-	UItem();
+	// Sets default values for this actor's properties
+	AItem();
 
 protected:
-	// Called when the game starts
+	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
 public:	
 	// Called every frame
-	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
+	virtual void Tick(float DeltaTime) override;
 
-		
 };
