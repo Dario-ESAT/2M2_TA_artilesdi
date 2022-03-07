@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Inventario.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{F2E1566C-4177-45C8-9D71-778E76C4B291}</UniqueIdentifier>
+      <UniqueIdentifier>{DC59C988-39A4-4427-AD34-018B32743537}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Inventario.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{92E1F600-0D45-4E24-87EB-58AABDF80F53}</UniqueIdentifier>
+      <UniqueIdentifier>{B7126044-DD2B-40F9-A161-2FDA186A13B5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Inventario">
-      <UniqueIdentifier>{DA495820-BB38-4871-BC49-C4979699926B}</UniqueIdentifier>
+      <UniqueIdentifier>{CC35A87E-7CDA-415F-810A-53071AC814CB}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Inventario\Inventario.Build.cs">
       <Filter>Source\Inventario</Filter>
@@ -66,7 +66,7 @@
       <Filter>Source\Inventario</Filter>
     </ClInclude>
     <Filter Include="Source\Inventario\Private">
-      <UniqueIdentifier>{2839D738-39E2-4F1A-A47A-57912F2BFE00}</UniqueIdentifier>
+      <UniqueIdentifier>{2DCB596C-A355-4EDA-B921-F44E76222328}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Inventario\Private\InventoryComponent.cpp">
       <Filter>Source\Inventario\Private</Filter>
@@ -78,7 +78,7 @@
       <Filter>Source\Inventario\Private</Filter>
     </ClCompile>
     <Filter Include="Source\Inventario\Public">
-      <UniqueIdentifier>{4BDEBBA7-0B85-403C-95B7-01A6C52C9315}</UniqueIdentifier>
+      <UniqueIdentifier>{DF8843C8-1C7A-4564-80CC-7B8FB5D9F365}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\Inventario\Public\InventoryComponent.h">
       <Filter>Source\Inventario\Public</Filter>

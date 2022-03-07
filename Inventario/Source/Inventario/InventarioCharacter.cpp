@@ -12,6 +12,7 @@
 #include "MotionControllerComponent.h"
 #include "XRMotionControllerBase.h" // for FXRMotionControllerBase::RightHandSourceId
 
+
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
 //////////////////////////////////////////////////////////////////////////
@@ -82,6 +83,8 @@ AInventarioCharacter::AInventarioCharacter()
 
 	// Uncomment the following line to turn motion controllers on by default:
 	//bUsingMotionControllers = true;
+	inventory_ = CreateDefaultSubobject<UInventoryComponent>(TEXT("Inventory"));
+	VR_MuzzleLocation->SetRelativeLocation(FVector(0.0f, 0.0f, 0.0f));
 }
 
 void AInventarioCharacter::BeginPlay()

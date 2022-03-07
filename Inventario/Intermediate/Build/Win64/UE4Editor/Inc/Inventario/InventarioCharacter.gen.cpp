@@ -21,6 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeInventarioCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	HEADMOUNTEDDISPLAY_API UClass* Z_Construct_UClass_UMotionControllerComponent_NoRegister();
+	INVENTARIO_API UClass* Z_Construct_UClass_UInventoryComponent_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	INVENTARIO_API UClass* Z_Construct_UClass_AInventarioProjectile_NoRegister();
@@ -72,6 +73,10 @@ void EmptyLinkFunctionForGeneratedCodeInventarioCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_L_MotionController_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_L_MotionController;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_inventory__MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_inventory_;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseTurnRate_MetaData[];
 #endif
@@ -200,6 +205,15 @@ void EmptyLinkFunctionForGeneratedCodeInventarioCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AInventarioCharacter_Statics::NewProp_L_MotionController = { "L_MotionController", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AInventarioCharacter, L_MotionController), Z_Construct_UClass_UMotionControllerComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AInventarioCharacter_Statics::NewProp_L_MotionController_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AInventarioCharacter_Statics::NewProp_L_MotionController_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AInventarioCharacter_Statics::NewProp_inventory__MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "InventarioCharacter" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "InventarioCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AInventarioCharacter_Statics::NewProp_inventory_ = { "inventory_", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AInventarioCharacter, inventory_), Z_Construct_UClass_UInventoryComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AInventarioCharacter_Statics::NewProp_inventory__MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AInventarioCharacter_Statics::NewProp_inventory__MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AInventarioCharacter_Statics::NewProp_BaseTurnRate_MetaData[] = {
 		{ "Category", "Camera" },
 		{ "Comment", "/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */" },
@@ -275,6 +289,7 @@ void EmptyLinkFunctionForGeneratedCodeInventarioCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInventarioCharacter_Statics::NewProp_FirstPersonCameraComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInventarioCharacter_Statics::NewProp_R_MotionController,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInventarioCharacter_Statics::NewProp_L_MotionController,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInventarioCharacter_Statics::NewProp_inventory_,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInventarioCharacter_Statics::NewProp_BaseTurnRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInventarioCharacter_Statics::NewProp_BaseLookUpRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInventarioCharacter_Statics::NewProp_GunOffset,
@@ -310,7 +325,7 @@ void EmptyLinkFunctionForGeneratedCodeInventarioCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AInventarioCharacter, 115658417);
+	IMPLEMENT_CLASS(AInventarioCharacter, 597956220);
 	template<> INVENTARIO_API UClass* StaticClass<AInventarioCharacter>()
 	{
 		return AInventarioCharacter::StaticClass();

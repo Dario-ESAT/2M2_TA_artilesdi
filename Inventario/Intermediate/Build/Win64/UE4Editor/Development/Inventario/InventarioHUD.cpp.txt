@@ -1,11 +1,11 @@
-C:\Users\artilesdi\Documents\Unreal Projects\Inventario\Intermediate\Build\Win64\UE4Editor\Development\Inventario\Definitions.Inventario.h
-C:\Users\artilesdi\Documents\Unreal Projects\Inventario\Source\Inventario\InventarioHUD.h
+C:\Users\34682\Documents\Unreal Projects\Inventario\Intermediate\Build\Win64\UE4Editor\Development\Inventario\Definitions.Inventario.h
+C:\Users\34682\Documents\Unreal Projects\Inventario\Source\Inventario\InventarioHUD.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
-C:\Users\artilesdi\Documents\Unreal Projects\Inventario\Intermediate\Build\Win64\UE4Editor\Inc\Inventario\InventarioHUD.generated.h
+C:\Users\34682\Documents\Unreal Projects\Inventario\Intermediate\Build\Win64\UE4Editor\Inc\Inventario\InventarioHUD.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/Canvas.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\CanvasItem.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/Font.h

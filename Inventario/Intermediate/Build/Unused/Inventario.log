@@ -1,11 +1,17 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\artilesdi\Documents\Unreal Projects).
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\34682\Documents\Unreal Projects).
   Parsing headers for InventarioEditor
-    Running UnrealHeaderTool "C:\Users\artilesdi\Documents\Unreal Projects\Inventario\Inventario.uproject" "C:\Users\artilesdi\Documents\Unreal Projects\Inventario\Intermediate\Build\Win64\InventarioEditor\Development\InventarioEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\artilesdi\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for InventarioEditor in 4,4745403 seconds
+    Running UnrealHeaderTool "C:\Users\34682\Documents\Unreal Projects\Inventario\Inventario.uproject" "C:\Users\34682\Documents\Unreal Projects\Inventario\Intermediate\Build\Win64\InventarioEditor\Development\InventarioEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\34682\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for InventarioEditor in 3,1727079 seconds
   Building InventarioEditor...
-  Using Visual Studio 2019 14.29.30038 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 5 actions with 4 processes...
-    [1/5] InventoryComponent.gen.cpp
-    [2/5] InventoryComponent.cpp
-C:\Users\artilesdi\Documents\Unreal Projects\Inventario\Source\Inventario\Private\InventoryComponent.cpp(21): error C3861: 'EnableInput': no se encontró el identificador
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(45,5): error MSB3073: El comando ""C:\Program Files\Epic Games\UE_4.26\Engine\Build\BatchFiles\Build.bat" InventarioEditor Win64 Development -Project="C:\Users\artilesdi\Documents\Unreal Projects\Inventario\Inventario.uproject" -WaitMutex -FromMsBuild" salió con el código 6.
+  Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 6 actions with 12 processes...
+    [1/6] InventarioCharacter.gen.cpp
+    [2/6] InventarioGameMode.cpp
+    [3/6] InventarioCharacter.cpp
+    [4/6] UE4Editor-Inventario-0002.lib
+       Creating library C:\Users\34682\Documents\Unreal Projects\Inventario\Intermediate\Build\Win64\UE4Editor\Development\Inventario\UE4Editor-Inventario-0002.lib and object C:\Users\34682\Documents\Unreal Projects\Inventario\Intermediate\Build\Win64\UE4Editor\Development\Inventario\UE4Editor-Inventario-0002.exp
+    [5/6] UE4Editor-Inventario-0002.dll
+       Creating library C:\Users\34682\Documents\Unreal Projects\Inventario\Intermediate\Build\Win64\UE4Editor\Development\Inventario\UE4Editor-Inventario-0002.suppressed.lib and object C:\Users\34682\Documents\Unreal Projects\Inventario\Intermediate\Build\Win64\UE4Editor\Development\Inventario\UE4Editor-Inventario-0002.suppressed.exp
+    [6/6] InventarioEditor.target
+  Total time in Parallel executor: 2,07 seconds
+  Total execution time: 5,85 seconds

@@ -1,14 +1,29 @@
-C:\Users\artilesdi\Documents\Unreal Projects\Inventario\Intermediate\Build\Win64\UE4Editor\Development\Inventario\Definitions.Inventario.h
-C:\Users\artilesdi\Documents\Unreal Projects\Inventario\Source\Inventario\InventarioCharacter.h
+C:\Users\34682\Documents\Unreal Projects\Inventario\Intermediate\Build\Win64\UE4Editor\Development\Inventario\Definitions.Inventario.h
+C:\Users\34682\Documents\Unreal Projects\Inventario\Source\Inventario\InventarioCharacter.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-C:\Users\artilesdi\Documents\Unreal Projects\Inventario\Intermediate\Build\Win64\UE4Editor\Inc\Inventario\InventarioCharacter.generated.h
-C:\Users\artilesdi\Documents\Unreal Projects\Inventario\Source\Inventario\InventarioProjectile.h
-C:\Users\artilesdi\Documents\Unreal Projects\Inventario\Intermediate\Build\Win64\UE4Editor\Inc\Inventario\InventarioProjectile.generated.h
+C:\Users\34682\Documents\Unreal Projects\Inventario\Source\Inventario\Public\InventoryComponent.h
+C:\Users\34682\Documents\Unreal Projects\Inventario\Source\Inventario\Public\Item.h
+C:\Users\34682\Documents\Unreal Projects\Inventario\Intermediate\Build\Win64\UE4Editor\Inc\Inventario\Item.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/CollisionProfile.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CollisionProfile.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
+C:\Users\34682\Documents\Unreal Projects\Inventario\Intermediate\Build\Win64\UE4Editor\Inc\Inventario\InventoryComponent.generated.h
+C:\Users\34682\Documents\Unreal Projects\Inventario\Intermediate\Build\Win64\UE4Editor\Inc\Inventario\InventarioCharacter.generated.h
+C:\Users\34682\Documents\Unreal Projects\Inventario\Source\Inventario\InventarioProjectile.h
+C:\Users\34682\Documents\Unreal Projects\Inventario\Intermediate\Build\Win64\UE4Editor\Inc\Inventario\InventarioProjectile.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/CapsuleComponent.h
@@ -30,17 +45,6 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\HeadMountedDisplay\Public\XRGestureConfig.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\XRGestureConfig.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\HeadMountedDisplayFunctionLibrary.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/CollisionProfile.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CollisionProfile.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\HeadMountedDisplay\Public\MotionControllerComponent.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\SceneViewExtension.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\SceneViewExtensionContext.h

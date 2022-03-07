@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "InventoryComponent.h"
+
 #include "InventarioCharacter.generated.h"
 
 class UInputComponent;
@@ -50,6 +52,9 @@ class AInventarioCharacter : public ACharacter
 	/** Motion controller (left hand) */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 	UMotionControllerComponent* L_MotionController;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
+	UInventoryComponent* inventory_;
 
 public:
 	AInventarioCharacter();

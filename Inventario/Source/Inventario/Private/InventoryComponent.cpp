@@ -32,3 +32,14 @@ void UInventoryComponent::TickComponent(float DeltaTime, ELevelTick TickType, FA
 	// ...
 }
 
+bool UInventoryComponent::AddItem() {
+
+	return false;
+}
+
+UItem UInventoryComponent::RemoveItem() {
+
+	return UItem();
+}
+
+

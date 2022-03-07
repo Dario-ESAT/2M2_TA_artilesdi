@@ -1,9 +1,9 @@
-C:\Users\artilesdi\Documents\Unreal Projects\Inventario\Intermediate\Build\Win64\UE4Editor\Development\Inventario\Definitions.Inventario.h
+C:\Users\34682\Documents\Unreal Projects\Inventario\Intermediate\Build\Win64\UE4Editor\Development\Inventario\Definitions.Inventario.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\artilesdi\Documents\Unreal Projects\Inventario\Source\Inventario/Public/InventoryComponent.h
-C:\Users\artilesdi\Documents\Unreal Projects\Inventario\Source\Inventario\Public\Item.h
-C:\Users\artilesdi\Documents\Unreal Projects\Inventario\Intermediate\Build\Win64\UE4Editor\Inc\Inventario\Item.generated.h
+C:\Users\34682\Documents\Unreal Projects\Inventario\Source\Inventario/Public/InventoryComponent.h
+C:\Users\34682\Documents\Unreal Projects\Inventario\Source\Inventario\Public\Item.h
+C:\Users\34682\Documents\Unreal Projects\Inventario\Intermediate\Build\Win64\UE4Editor\Inc\Inventario\Item.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
@@ -15,4 +15,4 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
-C:\Users\artilesdi\Documents\Unreal Projects\Inventario\Intermediate\Build\Win64\UE4Editor\Inc\Inventario\InventoryComponent.generated.h
+C:\Users\34682\Documents\Unreal Projects\Inventario\Intermediate\Build\Win64\UE4Editor\Inc\Inventario\InventoryComponent.generated.h
