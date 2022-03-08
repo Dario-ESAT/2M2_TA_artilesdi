@@ -1,6 +1,0 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\artilesdi\Documents\Unreal Projects).
-  Parsing headers for InventarioEditor
-    Running UnrealHeaderTool "C:\Users\artilesdi\Documents\Unreal Projects\Inventario\Inventario.uproject" "C:\Users\artilesdi\Documents\Unreal Projects\Inventario\Intermediate\Build\Win64\InventarioEditor\Development\InventarioEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\artilesdi\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  C:/Users/artilesdi/Documents/Unreal Projects/Inventario/Source/Inventario/Public/Item.h(13) : LogCompile: Error: BlueprintReadWrite should not be used on private members
-C:/Users/artilesdi/Documents/Unreal Projects/Inventario/Source/Inventario/Public/InventoryComponent.h(17): error : Unrecognized type 'UItem' - type must be a UCLASS, USTRUCT or UENUM
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(45,5): error MSB3073: El comando ""C:\Program Files\Epic Games\UE_4.26\Engine\Build\BatchFiles\Build.bat" InventarioEditor Win64 Development -Project="C:\Users\artilesdi\Documents\Unreal Projects\Inventario\Inventario.uproject" -WaitMutex -FromMsBuild" salió con el código 6.
