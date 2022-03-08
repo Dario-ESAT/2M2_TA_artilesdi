@@ -3,18 +3,19 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "PickUpItem.h"
 #include "GameFramework/Actor.h"
 #include "Item.generated.h"
 
 UCLASS()
-class INVENTARIO_API AItem : public AActor, public IPickUpItem
+class INVENTARIO_API AItem : public AActor
 {
 	GENERATED_BODY()
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Forma")
-	UStaticMeshComponent* SMComp_;
 public:	
 	// Sets default values for this actor's properties
 	AItem();
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Forma")
+	class UStaticMeshComponent* SMComp_;
 
 protected:
 	// Called when the game starts or when spawned
@@ -23,5 +24,8 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "PickUpable")
+	bool PickUp_Implementation();
 
 };

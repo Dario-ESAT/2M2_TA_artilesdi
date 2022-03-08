@@ -14,7 +14,7 @@ struct FInventoryInfo {
 	GENERATED_USTRUCT_BODY()
 		
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Inventario")
-	TMap<int32,UItem*> Slots;
+	TMap<int32,AItem*> Slots;
 };
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )

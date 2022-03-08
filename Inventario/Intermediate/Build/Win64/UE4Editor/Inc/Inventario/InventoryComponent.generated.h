@@ -13,6 +13,13 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define INVENTARIO_InventoryComponent_generated_h
 
+#define Inventario_Source_Inventario_Public_InventoryComponent_h_14_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FInventoryInfo_Statics; \
+	INVENTARIO_API static class UScriptStruct* StaticStruct();
+
+
+template<> INVENTARIO_API UScriptStruct* StaticStruct<struct FInventoryInfo>();
+
 #define Inventario_Source_Inventario_Public_InventoryComponent_h_22_SPARSE_DATA
 #define Inventario_Source_Inventario_Public_InventoryComponent_h_22_RPC_WRAPPERS
 #define Inventario_Source_Inventario_Public_InventoryComponent_h_22_RPC_WRAPPERS_NO_PURE_DECLS

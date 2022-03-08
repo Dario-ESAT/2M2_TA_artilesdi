@@ -486,6 +486,25 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Net\Core\Public\Net/Core/PushModel/PushModelMacros.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\RHI\Public\RHIDefinitions.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SceneComponent.generated.h
+C:\Users\artilesdi\Documents\Unreal Projects\Inventario\Source\Inventario\Public\Item.h
+C:\Users\artilesdi\Documents\Unreal Projects\Inventario\Source\Inventario\Public\PickUpItem.h
+C:\Users\artilesdi\Documents\Unreal Projects\Inventario\Intermediate\Build\Win64\UE4Editor\Inc\Inventario\PickUpItem.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\InputCore\Classes\InputCoreTypes.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/Attribute.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\InputCore\InputCoreTypes.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/ChildActorComponent.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ChildActorComponent.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\RenderCore\Public\RenderCommandFence.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/ITransaction.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc\Change.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/Level.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/ScopedCallback.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/MaterialMerging.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MaterialMerging.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Level.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Actor.generated.h
+C:\Users\artilesdi\Documents\Unreal Projects\Inventario\Intermediate\Build\Win64\UE4Editor\Inc\Inventario\Item.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/World.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\CollisionQueryParams.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\PhysicsCore\Public\Chaos/ChaosEngineInterface.h
@@ -504,21 +523,6 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\WorldCollision.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\PhysicsCore\Public\CollisionShape.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\InputCore\Classes\InputCoreTypes.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/Attribute.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\InputCore\InputCoreTypes.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/ChildActorComponent.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ChildActorComponent.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\RenderCore\Public\RenderCommandFence.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/ITransaction.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc\Change.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/Level.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/ScopedCallback.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/MaterialMerging.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MaterialMerging.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Level.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Actor.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavAgentInterface.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavigationTypes.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/CoreStats.h

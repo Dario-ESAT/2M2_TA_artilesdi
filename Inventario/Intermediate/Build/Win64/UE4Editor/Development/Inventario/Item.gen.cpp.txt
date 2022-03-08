@@ -448,12 +448,15 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UOb
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/TextProperty.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/FieldPathProperty.h
 C:\Users\artilesdi\Documents\Unreal Projects\Inventario\Source\Inventario/Public/Item.h
+C:\Users\artilesdi\Documents\Unreal Projects\Inventario\Source\Inventario\Public\PickUpItem.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/Interface.h
+C:\Users\artilesdi\Documents\Unreal Projects\Inventario\Intermediate\Build\Win64\UE4Editor\Inc\Inventario\PickUpItem.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/ScriptMacros.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/Stack.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\InputCore\Classes\InputCoreTypes.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/Attribute.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\InputCore\InputCoreTypes.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/ScriptMacros.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/Stack.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/CoreNet.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Serialization/BitReader.h
@@ -484,7 +487,6 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\EdGraph
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\EdGraphNode.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\EdGraphPin.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Interfaces/Interface_AssetUserData.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/Interface.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Interface_AssetUserData.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/UObjectAnnotation.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ActorComponent.generated.h
