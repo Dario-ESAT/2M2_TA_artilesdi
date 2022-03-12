@@ -1,0 +1,1 @@
+"C:\Program Files\Epic Games\UE_4.26\Engine\Binaries\DotNET\UnrealBuildTool.exe" -2019 -projectfiles -project="C:\Users\34682\Documents\Unreal Projects\Inventario\Inventario.uproject" -game -rocket -progress

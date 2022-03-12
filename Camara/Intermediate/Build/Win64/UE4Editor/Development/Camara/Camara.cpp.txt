@@ -1,2 +1,0 @@
-C:\Users\34682\Documents\Unreal Projects\Camara\Intermediate\Build\Win64\UE4Editor\Development\Camara\Definitions.Camara.h
-C:\Users\34682\Documents\Unreal Projects\Camara\Source\Camara\Camara.h

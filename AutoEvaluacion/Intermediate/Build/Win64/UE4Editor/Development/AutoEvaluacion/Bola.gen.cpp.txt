@@ -1,5 +1,0 @@
-C:\Users\artilesdi\Documents\Unreal Projects\AutoEvaluacion\Intermediate\Build\Win64\UE4Editor\Development\AutoEvaluacion\Definitions.AutoEvaluacion.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\artilesdi\Documents\Unreal Projects\AutoEvaluacion\Source\AutoEvaluacion/Public/Bola.h
-C:\Users\artilesdi\Documents\Unreal Projects\AutoEvaluacion\Intermediate\Build\Win64\UE4Editor\Inc\AutoEvaluacion\Bola.generated.h

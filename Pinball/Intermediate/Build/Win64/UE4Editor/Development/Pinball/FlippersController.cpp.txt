@@ -1,5 +1,0 @@
-C:\Users\34682\Documents\Unreal Projects\Pinball\Intermediate\Build\Win64\UE4Editor\Development\Pinball\Definitions.Pinball.h
-C:\Users\34682\Documents\Unreal Projects\Pinball\Source\Pinball\FlippersController.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
-C:\Users\34682\Documents\Unreal Projects\Pinball\Intermediate\Build\Win64\UE4Editor\Inc\Pinball\FlippersController.generated.h

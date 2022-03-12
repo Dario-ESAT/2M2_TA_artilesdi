@@ -1,2 +1,0 @@
-C:\Users\artilesdi\Documents\Unreal Projects\AutoEvaluacion\Intermediate\Build\Win64\UE4Editor\Development\AutoEvaluacion\Definitions.AutoEvaluacion.h
-C:\Users\artilesdi\Documents\Unreal Projects\AutoEvaluacion\Source\AutoEvaluacion\AutoEvaluacion.h
