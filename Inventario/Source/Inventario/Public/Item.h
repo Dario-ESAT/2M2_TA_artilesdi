@@ -8,7 +8,7 @@
 #include "Item.generated.h"
 
 UCLASS()
-class INVENTARIO_API AItem : public AActor
+class INVENTARIO_API AItem : public AActor, public IPickUpItem
 {
 	GENERATED_BODY()
 public:	
@@ -26,6 +26,12 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "PickUpable")
+	bool PickUp();
 	bool PickUp_Implementation();
+
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "PickUpable")
+	bool Drop(FVector position);
+	bool Drop_Implementation(FVector position);
+
 
 };

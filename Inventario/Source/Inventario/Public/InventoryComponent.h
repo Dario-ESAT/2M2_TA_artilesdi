@@ -27,6 +27,11 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Inventario")
 		FInventoryInfo inventory_;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Inventario")
+		float radius_;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Inventario")
+		float range_;
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
@@ -35,8 +40,8 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
-	void TakeItem();
+	void TakeItem(FVector location, FVector direction);
 
-	void DropItem();
+	void DropItem(int32 slot, FVector location);
 		
 };

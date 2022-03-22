@@ -32,13 +32,36 @@ void UInventoryComponent::TickComponent(float DeltaTime, ELevelTick TickType, FA
 	// ...
 }
 
-void UInventoryComponent::TakeItem() {
-
+void UInventoryComponent::TakeItem(FVector location, FVector direction) {
+	TArray<FHitResult> hits;
+	FVector end = location + direction * range_;
+	GetWorld()->SweepMultiByProfile(hits, location, end, direction.Rotation().Quaternion(), FName("OverlapAllDynamic"), FCollisionShape::MakeSphere(radius_));
 	
+	for(FHitResult tonto : hits) {
+		if (tonto.Actor->GetClass()->ImplementsInterface(UPickUpItem::StaticClass())) {
+			bool saved = false;
+			if (!inventory_.Slots.Contains(1)) {
+				saved = true;
+				inventory_.Slots.Emplace(1, Cast<AItem>(tonto.GetActor()));
+
+			} else if (!inventory_.Slots.Contains(2)) {
+				saved = true;
+				inventory_.Slots.Emplace(2, Cast<AItem>(tonto.GetActor()));
+			}
+			if (saved) {
+				IPickUpItem::Execute_PickUp(tonto.GetActor());
+			}
+			
+		}
+	}
 }
 
-void UInventoryComponent::DropItem() {
-
+void UInventoryComponent::DropItem(int32 slot, FVector location) {
+	if (!inventory_.Slots.Contains(slot)) {
+		
+		
+		IPickUpItem::Execute_Drop(*(inventory_.Slots.Find(slot)), location);
+	}
 	
 }
 

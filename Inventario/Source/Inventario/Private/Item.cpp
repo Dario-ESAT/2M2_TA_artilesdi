@@ -33,7 +33,15 @@ void AItem::Tick(float DeltaTime)
 }
 
 bool AItem::PickUp_Implementation() {
-	return false;
+	SMComp_->SetActive(false);
+	return true;
+}
+
+bool AItem::Drop_Implementation(FVector position) {
+	SMComp_->SetActive(true);
+	SMComp_->GetComponentTransform().GetLocation().Set(position.X, position.Y, position.Z);
+
+	return true;
 }
 
 

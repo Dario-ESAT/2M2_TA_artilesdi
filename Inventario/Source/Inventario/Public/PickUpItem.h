@@ -23,4 +23,7 @@ public:
 
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "PickUpable")
 	bool PickUp();
+
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "PickUpable")
+	bool Drop(FVector position);
 };

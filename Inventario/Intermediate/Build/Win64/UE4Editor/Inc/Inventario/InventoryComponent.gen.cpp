@@ -127,6 +127,14 @@ static struct FScriptStruct_Inventario_StaticRegisterNativesFInventoryInfo
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_inventory__MetaData[];
 #endif
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_inventory_;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_radius__MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_radius_;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_range__MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_range_;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -150,8 +158,24 @@ static struct FScriptStruct_Inventario_StaticRegisterNativesFInventoryInfo
 	};
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_UInventoryComponent_Statics::NewProp_inventory_ = { "inventory_", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UInventoryComponent, inventory_), Z_Construct_UScriptStruct_FInventoryInfo, METADATA_PARAMS(Z_Construct_UClass_UInventoryComponent_Statics::NewProp_inventory__MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UInventoryComponent_Statics::NewProp_inventory__MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UInventoryComponent_Statics::NewProp_radius__MetaData[] = {
+		{ "Category", "Inventario" },
+		{ "ModuleRelativePath", "Public/InventoryComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UInventoryComponent_Statics::NewProp_radius_ = { "radius_", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UInventoryComponent, radius_), METADATA_PARAMS(Z_Construct_UClass_UInventoryComponent_Statics::NewProp_radius__MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UInventoryComponent_Statics::NewProp_radius__MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UInventoryComponent_Statics::NewProp_range__MetaData[] = {
+		{ "Category", "Inventario" },
+		{ "ModuleRelativePath", "Public/InventoryComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UInventoryComponent_Statics::NewProp_range_ = { "range_", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UInventoryComponent, range_), METADATA_PARAMS(Z_Construct_UClass_UInventoryComponent_Statics::NewProp_range__MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UInventoryComponent_Statics::NewProp_range__MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UInventoryComponent_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UInventoryComponent_Statics::NewProp_inventory_,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UInventoryComponent_Statics::NewProp_radius_,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UInventoryComponent_Statics::NewProp_range_,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UInventoryComponent_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UInventoryComponent>::IsAbstract,
@@ -180,7 +204,7 @@ static struct FScriptStruct_Inventario_StaticRegisterNativesFInventoryInfo
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UInventoryComponent, 2916841460);
+	IMPLEMENT_CLASS(UInventoryComponent, 3281108744);
 	template<> INVENTARIO_API UClass* StaticClass<UInventoryComponent>()
 	{
 		return UInventoryComponent::StaticClass();

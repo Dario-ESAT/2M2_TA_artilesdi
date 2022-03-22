@@ -8,6 +8,7 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FVector;
 #ifdef INVENTARIO_PickUpItem_generated_h
 #error "PickUpItem.generated.h already included, missing '#pragma once' in PickUpItem.h"
 #endif
@@ -15,18 +16,33 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define Inventario_Source_Inventario_Public_PickUpItem_h_12_SPARSE_DATA
 #define Inventario_Source_Inventario_Public_PickUpItem_h_12_RPC_WRAPPERS \
+	virtual bool Drop_Implementation(FVector position) { return false; }; \
 	virtual bool PickUp_Implementation() { return false; }; \
  \
+	DECLARE_FUNCTION(execDrop); \
 	DECLARE_FUNCTION(execPickUp);
 
 
 #define Inventario_Source_Inventario_Public_PickUpItem_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual bool Drop_Implementation(FVector position) { return false; }; \
 	virtual bool PickUp_Implementation() { return false; }; \
  \
+	DECLARE_FUNCTION(execDrop); \
 	DECLARE_FUNCTION(execPickUp);
 
 
 #define Inventario_Source_Inventario_Public_PickUpItem_h_12_EVENT_PARMS \
+	struct PickUpItem_eventDrop_Parms \
+	{ \
+		FVector position; \
+		bool ReturnValue; \
+ \
+		/** Constructor, initializes return property only **/ \
+		PickUpItem_eventDrop_Parms() \
+			: ReturnValue(false) \
+		{ \
+		} \
+	}; \
 	struct PickUpItem_eventPickUp_Parms \
 	{ \
 		bool ReturnValue; \
@@ -96,6 +112,7 @@ protected: \
 public: \
 	typedef UPickUpItem UClassType; \
 	typedef IPickUpItem ThisClass; \
+	static bool Execute_Drop(UObject* O, FVector position); \
 	static bool Execute_PickUp(UObject* O); \
 	virtual UObject* _getUObject() const { check(0 && "Missing required implementation."); return nullptr; }
 
@@ -106,6 +123,7 @@ protected: \
 public: \
 	typedef UPickUpItem UClassType; \
 	typedef IPickUpItem ThisClass; \
+	static bool Execute_Drop(UObject* O, FVector position); \
 	static bool Execute_PickUp(UObject* O); \
 	virtual UObject* _getUObject() const { check(0 && "Missing required implementation."); return nullptr; }
 
