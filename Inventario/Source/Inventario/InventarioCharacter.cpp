@@ -84,6 +84,7 @@ AInventarioCharacter::AInventarioCharacter()
 	// Uncomment the following line to turn motion controllers on by default:
 	//bUsingMotionControllers = true;
 	inventory_ = CreateDefaultSubobject<UInventoryComponent>(TEXT("Inventory"));
+
 	VR_MuzzleLocation->SetRelativeLocation(FVector(0.0f, 0.0f, 0.0f));
 }
 
@@ -127,6 +128,8 @@ void AInventarioCharacter::SetupPlayerInputComponent(class UInputComponent* Play
 	EnableTouchscreenMovement(PlayerInputComponent);
 
 	PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &AInventarioCharacter::OnResetVR);
+
+	PlayerInputComponent->BindAction("Interact", IE_Pressed, this, &AInventarioCharacter::OnPickUp);
 
 	// Bind movement events
 	PlayerInputComponent->BindAxis("MoveForward", this, &AInventarioCharacter::MoveForward);
@@ -285,6 +288,11 @@ void AInventarioCharacter::LookUpAtRate(float Rate)
 {
 	// calculate delta for this frame from the rate information
 	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
+}
+
+void AInventarioCharacter::OnPickUp() {
+	GEngine->AddOnScreenDebugMessage(0,5,FColor::Cyan,FString("Holaaa"));
+	//inventory_->TakeItem(GetActorLocation(),GetActorForwardVector());
 }
 
 bool AInventarioCharacter::EnableTouchscreenMovement(class UInputComponent* PlayerInputComponent)

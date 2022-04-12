@@ -73,3 +73,32 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 *.log
+
+Build/
+Intermediate/
+DerivedDataCache/
+Saved/
+
+Binaries/
+#Sustituir JDTest por el nombre de vuestro proyecto en las siguientes 3 lineas
+!Binaries/*/UE4Editor-TheAnimist.dll
+!Binaries/*/UE4Editor.modules
+!Binaries/*/TheAnimistEditor.target
+
+/Plugins/*/Binaries
+/Plugins/*/Intermediate
+
+#p4ignore
+
+.vs/
+
+*.suo
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.db
+
+# OS Specific Files
+Thumbs.db
+*.DS_Store

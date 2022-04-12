@@ -1,3 +1,0 @@
-C:\Users\34682\Documents\Unreal Projects\Pinball\Intermediate\Build\Win64\UE4Editor\Development\Pinball\Definitions.Pinball.h
-C:\Users\34682\Documents\Unreal Projects\Pinball\Source\Pinball\Public\BallLauncher.h
-C:\Users\34682\Documents\Unreal Projects\Pinball\Intermediate\Build\Win64\UE4Editor\Inc\Pinball\BallLauncher.generated.h
