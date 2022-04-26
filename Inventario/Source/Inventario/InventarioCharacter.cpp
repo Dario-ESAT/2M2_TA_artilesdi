@@ -14,6 +14,7 @@
 
 
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParams(OnDrop, int32, slot);
 
 //////////////////////////////////////////////////////////////////////////
 // AInventarioCharacter
@@ -130,7 +131,10 @@ void AInventarioCharacter::SetupPlayerInputComponent(class UInputComponent* Play
 	PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &AInventarioCharacter::OnResetVR);
 
 	PlayerInputComponent->BindAction("Interact", IE_Pressed, this, &AInventarioCharacter::OnPickUp);
-
+	//PlayerInputComponent->BindAction("DropItem1", IE_Pressed, this, &AInventarioCharacter::OnDrop1);
+	//PlayerInputComponent->BindAction("DropItem2", IE_Pressed, this, &AInventarioCharacter::OnDrop2);
+	PlayerInputComponent->BindAction("DropItem1", IE_Pressed, this, &AInventarioCharacter::OnDrop,1);
+	PlayerInputComponent->BindAction("DropItem2", IE_Pressed, this, &AInventarioCharacter::OnDrop,1);
 	// Bind movement events
 	PlayerInputComponent->BindAxis("MoveForward", this, &AInventarioCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AInventarioCharacter::MoveRight);
@@ -292,8 +296,13 @@ void AInventarioCharacter::LookUpAtRate(float Rate)
 
 void AInventarioCharacter::OnPickUp() {
 	GEngine->AddOnScreenDebugMessage(0,5,FColor::Cyan,FString("Holaaa"));
-	//inventory_->TakeItem(GetActorLocation(),GetActorForwardVector());
+	inventory_->TakeItem(GetActorLocation(),GetActorForwardVector());
 }
+
+void AInventarioCharacter::OnDrop(int32 slot){
+	inventory_->DropItem(slot,GetActorLocation());
+}
+
 
 bool AInventarioCharacter::EnableTouchscreenMovement(class UInputComponent* PlayerInputComponent)
 {

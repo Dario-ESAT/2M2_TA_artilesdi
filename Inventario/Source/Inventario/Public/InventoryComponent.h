@@ -17,6 +17,7 @@ struct FInventoryInfo {
 	TMap<int32,AItem*> Slots;
 };
 
+
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class INVENTARIO_API UInventoryComponent : public UActorComponent {
 	GENERATED_BODY()
