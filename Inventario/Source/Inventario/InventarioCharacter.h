@@ -122,12 +122,12 @@ protected:
 	//DECLARE_DELEGATE_OneParam(OnDropDelegate, int32);
 	UFUNCTION()
 	void OnDrop(int32 slot);
-	/*
+	
 	UFUNCTION()
 	void OnDrop1();
 	UFUNCTION()
 	void OnDrop2();
-	*/
+	
 
 	struct TouchData
 	{

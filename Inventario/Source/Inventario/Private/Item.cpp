@@ -2,6 +2,7 @@
 
 
 #include "Item.h"
+#include "Engine/Engine.h"
 #include "Components/StaticMeshComponent.h"
 #include "Kismet/GameplayStatics.h"
 
@@ -35,15 +36,19 @@ void AItem::Tick(float DeltaTime)
 
 bool AItem::PickUp_Implementation() {
 	GEngine->AddOnScreenDebugMessage(3, 1, FColor::Cyan, FString("Picked Up"));
-	SMComp_->SetActive(false);
+	SetActorHiddenInGame(true);
+	
+	//SMComp_->SetActive(false);
 	return true;
 }
 
 bool AItem::Drop_Implementation(FVector position) {
 	GEngine->AddOnScreenDebugMessage(3, 1, FColor::Cyan, FString("Droped"));
-	SMComp_->SetActive(true);
-	SMComp_->GetComponentTransform().GetLocation().Set(position.X, position.Y, position.Z);
-
+	SetActorHiddenInGame(false);
+	//SMComp_->SetActive(true);
+	
+	//SMComp_->GetComponentTransform().GetLocation().Set(position.X, position.Y, position.Z);
+	SMComp_->SetWorldLocation(position);
 	return true;
 }
 

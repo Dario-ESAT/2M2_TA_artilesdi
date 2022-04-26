@@ -15,6 +15,7 @@ struct FInventoryInfo {
 		
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Inventario")
 	TMap<int32,AItem*> Slots;
+	int32 size;
 };
 
 
