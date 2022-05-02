@@ -4,6 +4,4 @@
 #include "Modules/ModuleManager.h"
 
 IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, ProyectoFinal, "ProyectoFinal" );
-
-DEFINE_LOG_CATEGORY(LogProyectoFinal)
  
