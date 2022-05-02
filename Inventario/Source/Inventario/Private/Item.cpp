@@ -37,17 +37,19 @@ void AItem::Tick(float DeltaTime)
 bool AItem::PickUp_Implementation() {
 	GEngine->AddOnScreenDebugMessage(3, 1, FColor::Cyan, FString("Picked Up"));
 	SetActorHiddenInGame(true);
-	
-	//SMComp_->SetActive(false);
+	SMComp_->SetSimulatePhysics(false);
+	SMComp_->SetWorldLocation(FVector(2770.0, -1330.0, 590.0));
+
 	return true;
 }
 
 bool AItem::Drop_Implementation(FVector position) {
 	GEngine->AddOnScreenDebugMessage(3, 1, FColor::Cyan, FString("Droped"));
 	SetActorHiddenInGame(false);
-	//SMComp_->SetActive(true);
 	
-	//SMComp_->GetComponentTransform().GetLocation().Set(position.X, position.Y, position.Z);
+	SMComp_->SetSimulatePhysics(true);
+
+	
 	SMComp_->SetWorldLocation(position);
 	return true;
 }
