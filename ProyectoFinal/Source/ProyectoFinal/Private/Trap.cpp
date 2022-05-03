@@ -2,6 +2,8 @@
 
 
 #include "Trap.h"
+#include "Kismet/GameplayStatics.h"
+#include "Components/StaticMeshComponent.h"
 
 // Sets default values
 ATrap::ATrap()
@@ -9,6 +11,11 @@ ATrap::ATrap()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	SMComp_ = CreateDefaultSubobject<UStaticMeshComponent>(
+		TEXT("SMComp")
+		);
+	
+	RootComponent = SMComp_;
 }
 
 // Called when the game starts or when spawned

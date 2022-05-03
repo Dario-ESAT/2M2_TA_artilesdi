@@ -14,6 +14,8 @@ class PROYECTOFINAL_API ATrap : public AActor
 public:	
 	// Sets default values for this actor's properties
 	ATrap();
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Tonterias")
+	UStaticMeshComponent* SMComp_;
 
 
 
