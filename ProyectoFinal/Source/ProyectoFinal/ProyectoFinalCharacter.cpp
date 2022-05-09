@@ -8,12 +8,14 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "DrawDebugHelpers.h"
 
 //////////////////////////////////////////////////////////////////////////
 // AProyectoFinalCharacter
 
 AProyectoFinalCharacter::AProyectoFinalCharacter()
 {
+	PrimaryActorTick.bCanEverTick = true;
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
 
@@ -74,6 +76,28 @@ void AProyectoFinalCharacter::SetupPlayerInputComponent(class UInputComponent* P
 
 	// VR headset functionality
 	PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &AProyectoFinalCharacter::OnResetVR);
+}
+
+void AProyectoFinalCharacter::Tick(float DeltaTime) {
+	Super::Tick(DeltaTime);
+	FHitResult hit;
+	FVector origin = FollowCamera->GetComponentLocation();
+	FVector end = origin + FollowCamera->GetForwardVector() * PlaceRange_;
+	DrawDebugLine(GetOwner()->GetWorld(), origin, end,FColor::Blue, false, -1.0f, (uint8)'\000', 3.0f);
+	if (GetWorld()->LineTraceSingleByProfile(hit,origin,end, FName("BlockAll"))) {
+		FString x = FString::SanitizeFloat(hit.Normal.X);
+		FString y = FString::SanitizeFloat(hit.Normal.Y);
+		FString z = FString::SanitizeFloat(hit.Normal.Z);
+		//FString normal = x.Append(y.Append(z));
+
+		GEngine->AddOnScreenDebugMessage(1, 1, FColor::Cyan, x);
+		GEngine->AddOnScreenDebugMessage(2, 1, FColor::Cyan, y);
+		GEngine->AddOnScreenDebugMessage(3, 1, FColor::Cyan, z);
+		if ((hit.Normal - FVector(0.0f,0.0f,1.0f)).IsNearlyZero()) {
+			GEngine->AddOnScreenDebugMessage(4, 1, FColor::Cyan, FString("Suelo"));
+
+		}
+	}
 }
 
 
