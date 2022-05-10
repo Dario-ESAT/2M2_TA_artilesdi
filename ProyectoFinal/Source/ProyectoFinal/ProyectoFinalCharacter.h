@@ -32,6 +32,14 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Traps)
 	float PlaceRange_;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Traps)
+	class ATarrTrapPlaceholder* Tarr_;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Traps)
+	class AArcherTrapPlaceholder* Archer_;
+
+
+
 protected:
 
 	/** Resets HMD orientation in VR. */

@@ -14,10 +14,13 @@ class PROYECTOFINAL_API ATrapPlaceholder : public AActor
 
 	UPROPERTY(EditDefaultsOnly, Category = Placeholder)
 	TSubclassOf<ATrap> trap_;
+
 public:	
 	// Sets default values for this actor's properties
 	ATrapPlaceholder();
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Tonterias")
+	UStaticMeshComponent* SMComp_;
 	
 protected:
 	// Called when the game starts or when spawned
