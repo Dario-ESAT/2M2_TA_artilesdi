@@ -18,7 +18,9 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "AI")
 	class UNavigationSystemV1* NavArea;
 
+	FVector unactive_loc_;
 	bool active_;
+	int id_;
 
 protected:
 	// Called when the game starts or when spawned

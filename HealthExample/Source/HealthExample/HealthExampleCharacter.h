@@ -6,6 +6,7 @@
 #include "GameFramework/Character.h"
 #include "HealthExampleCharacter.generated.h"
 
+
 UCLASS(config=Game)
 class AHealthExampleCharacter : public ACharacter
 {
@@ -29,13 +30,15 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseLookUpRate;
 	
-	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Gameplay")
+	//UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Gameplay")
 	int32 MaxHealth = 100;
 	
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gameplay")
-	int32 CurrentHealth = 100;
+	//UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gameplay")
 
 protected:
+
+	UFUNCTION()
+	void LostLife(int32 hola);
 
 	/** Resets HMD orientation in VR. */
 	void OnResetVR();
@@ -72,6 +75,8 @@ protected:
 	// End of APawn interface
 
 public:
+	void BeginPlay() override;
+
 	/** Returns CameraBoom subobject **/
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 	/** Returns FollowCamera subobject **/

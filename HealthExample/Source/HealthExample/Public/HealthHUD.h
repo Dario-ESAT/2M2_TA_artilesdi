@@ -6,10 +6,9 @@
 #include "GameFramework/HUD.h"
 #include "HealthHUD.generated.h"
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FDiedEvent, int32, hola);
+
 class UUserWidget;
-/**
- * 
- */
 UCLASS()
 class HEALTHEXAMPLE_API AHealthHUD : public AHUD
 {

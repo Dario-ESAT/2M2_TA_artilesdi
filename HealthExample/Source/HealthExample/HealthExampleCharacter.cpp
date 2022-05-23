@@ -8,6 +8,8 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "Kismet/GameplayStatics.h"
+#include "Dariotonto.h"
 #include "HealthHUD.h"
 #include "WHealthValue.h"
 
@@ -45,8 +47,6 @@ AHealthExampleCharacter::AHealthExampleCharacter()
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
 
-	CurrentHealth = MaxHealth;
-	
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
 }
@@ -84,15 +84,44 @@ void AHealthExampleCharacter::SetupPlayerInputComponent(class UInputComponent* P
 
 }
 
+void AHealthExampleCharacter::BeginPlay(){
+	Super::BeginPlay();
+	UDariotonto* eltonto = Cast<UDariotonto>(UGameplayStatics::GetGameInstance(GetWorld()));
+
+	eltonto->event.AddDynamic(this, &AHealthExampleCharacter::LostLife);
+}
+
 void AHealthExampleCharacter::ReceiveDamage()
 {
-	CurrentHealth -= 10;
+	
+	UDariotonto* eltonto = Cast<UDariotonto>(UGameplayStatics::GetGameInstance(GetWorld()));
+
+
+
+	eltonto->CurrentHealth -= 10;
 	APlayerController* PC=
+		GetController<APlayerController>();
+
+	if(eltonto->CurrentHealth < 0){
+		eltonto->event.Broadcast(30);
+	}
+
+	AHealthHUD* myHUD = PC->GetHUD<AHealthHUD>();
+	(myHUD->HealthWidget)->SetHealthValue(
+		eltonto->CurrentHealth, eltonto->MaxHealth);
+}
+
+void AHealthExampleCharacter::LostLife(int32 hola) {
+
+	UDariotonto* eltonto = Cast<UDariotonto>(UGameplayStatics::GetGameInstance(GetWorld()));
+
+	eltonto->CurrentHealth = eltonto->MaxHealth;
+	APlayerController* PC =
 		GetController<APlayerController>();
 
 	AHealthHUD* myHUD = PC->GetHUD<AHealthHUD>();
 	(myHUD->HealthWidget)->SetHealthValue(
-		CurrentHealth, MaxHealth);
+		eltonto->CurrentHealth, eltonto->MaxHealth);
 }
 
 void AHealthExampleCharacter::OnResetVR()

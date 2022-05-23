@@ -21,7 +21,13 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Tonterias")
 	UStaticMeshComponent* SMComp_;
 
-	TVector<AEnemy_AI*>;
+	UPROPERTY(EditAnywhere, Category = Placeholder)
+	TSubclassOf<AEnemy_AI> enemy_;
+
+	TArray<AEnemy_AI*> enemy_arr_;
+
+	UPROPERTY(EditAnywhere, Category = Enemies)
+	ADefenseObjective* objective_;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enemies")
 	int max_enemies_;
@@ -43,4 +49,5 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	void SpawnEnemies();
 };
