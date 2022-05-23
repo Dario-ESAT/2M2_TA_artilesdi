@@ -33,15 +33,17 @@ public:
 	float PlaceRange_;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Traps)
-	class ATarrTrapPlaceholder* Tarr_;
+	class ATrapPlaceholder* Tarr_;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Traps)
-	class AArcherTrapPlaceholder* Archer_;
+	class ATrapPlaceholder* Archer_;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Traps)
+	int selected_trap_;
 
-
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Traps)
+	class ATrap* aiming_trap_;
 protected:
-
 	/** Resets HMD orientation in VR. */
 	void OnResetVR();
 
@@ -68,6 +70,14 @@ protected:
 
 	/** Handler for when a touch input stops. */
 	void TouchStopped(ETouchIndex::Type FingerIndex, FVector Location);
+
+	void SelectTrap1();
+
+	void SelectTrap2();
+
+	void PlaceTrap();
+
+	void CancelTrap();
 
 protected:
 	// APawn interface

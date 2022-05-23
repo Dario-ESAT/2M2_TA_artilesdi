@@ -7,11 +7,11 @@
 #include "ArcherTrapPlaceholder.generated.h"
 
 /**
- * 
+ *
  */
 UCLASS()
 class PROYECTOFINAL_API AArcherTrapPlaceholder : public ATrapPlaceholder
 {
 	GENERATED_BODY()
-	
+
 };

@@ -1,5 +1,6 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
+#include "TrapPlaceholder.h"
 #include "ProyectoFinalCharacter.h"
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "Camera/CameraComponent.h"
@@ -47,17 +48,22 @@ AProyectoFinalCharacter::AProyectoFinalCharacter()
 
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
+
+
+	selected_trap_ = 0;
 }
 
 //////////////////////////////////////////////////////////////////////////
 // Input
-
-void AProyectoFinalCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
-{
+void AProyectoFinalCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) {
 	// Set up gameplay key bindings
 	check(PlayerInputComponent);
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
+	PlayerInputComponent->BindAction("FirstTrap", IE_Pressed, this, &AProyectoFinalCharacter::SelectTrap1);
+	PlayerInputComponent->BindAction("SecondTrap", IE_Pressed, this, &AProyectoFinalCharacter::SelectTrap2);
+	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AProyectoFinalCharacter::PlaceTrap);
+	PlayerInputComponent->BindAction("Cancel", IE_Pressed, this, &AProyectoFinalCharacter::CancelTrap);
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &AProyectoFinalCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AProyectoFinalCharacter::MoveRight);
@@ -80,26 +86,29 @@ void AProyectoFinalCharacter::SetupPlayerInputComponent(class UInputComponent* P
 
 void AProyectoFinalCharacter::Tick(float DeltaTime) {
 	Super::Tick(DeltaTime);
-	FHitResult hit;
-	FVector origin = FollowCamera->GetComponentLocation();
-	FVector end = origin + FollowCamera->GetForwardVector() * PlaceRange_;
-	DrawDebugLine(GetOwner()->GetWorld(), origin, end,FColor::Blue, false, -1.0f, (uint8)'\000', 3.0f);
-	if (GetWorld()->LineTraceSingleByProfile(hit,origin,end, FName("BlockAll"))) {
-		FString x = FString::SanitizeFloat(hit.Normal.X);
-		FString y = FString::SanitizeFloat(hit.Normal.Y);
-		FString z = FString::SanitizeFloat(hit.Normal.Z);
-		//FString normal = x.Append(y.Append(z));
-
-		GEngine->AddOnScreenDebugMessage(1, 1, FColor::Cyan, x);
-		GEngine->AddOnScreenDebugMessage(2, 1, FColor::Cyan, y);
-		GEngine->AddOnScreenDebugMessage(3, 1, FColor::Cyan, z);
-		if ((hit.Normal - FVector(0.0f,0.0f,1.0f)).IsNearlyZero()) {
-			GEngine->AddOnScreenDebugMessage(4, 1, FColor::Cyan, FString("Suelo"));
-
+	if(selected_trap_ != 0){
+		FHitResult hit;
+		FVector origin = FollowCamera->GetComponentLocation();
+		FVector end = origin + FollowCamera->GetForwardVector() * PlaceRange_;
+		//DrawDebugLine(GetOwner()->GetWorld(), origin, end,FColor::Blue, false, -1.0f, (uint8)'\000', 3.0f);
+		if (GetWorld()->LineTraceSingleByProfile(hit,origin,end, FName("BlockAll"))) {
+			if(hit.GetActor()->IsA(ATrap::StaticClass())){
+				aiming_trap_ = (dynamic_cast<ATrap*>(hit.GetActor()));
+			} else if ((hit.Normal - FVector(0.0f,0.0f,1.0f)).IsNearlyZero()) {
+				//GEngine->AddOnScreenDebugMessage(4, 0.1f, FColor::Cyan, FString("Suelo"));
+				aiming_trap_ = nullptr;
+				if(selected_trap_ == 1){
+					Tarr_->SetLocationInGrid(hit.Location);
+				} else if(selected_trap_ == 2){
+					Archer_->SetLocationInGrid(hit.Location);
+				}
+			}
+		} else{
+			Archer_->SetToOriginalLoc();
+			Tarr_->SetToOriginalLoc();
 		}
 	}
 }
-
 
 void AProyectoFinalCharacter::OnResetVR()
 {
@@ -120,6 +129,45 @@ void AProyectoFinalCharacter::TouchStarted(ETouchIndex::Type FingerIndex, FVecto
 void AProyectoFinalCharacter::TouchStopped(ETouchIndex::Type FingerIndex, FVector Location)
 {
 		StopJumping();
+}
+
+void AProyectoFinalCharacter::SelectTrap1(){
+	if(selected_trap_ == 1){
+		selected_trap_ = 0;
+		Tarr_->SetToOriginalLoc();
+	} else{
+		selected_trap_ = 1;
+		Archer_->SetToOriginalLoc();
+	}
+	FString x = FString::Printf(TEXT("%d"), selected_trap_);
+	GEngine->AddOnScreenDebugMessage(10, 1, FColor::Purple, x);
+}
+
+void AProyectoFinalCharacter::SelectTrap2(){
+	if(selected_trap_ == 2){
+		selected_trap_ = 0;
+		Archer_->SetToOriginalLoc();
+	} else{
+		selected_trap_ = 2;
+		Tarr_->SetToOriginalLoc();
+	}
+	FString x = FString::Printf(TEXT("%d"), selected_trap_);
+	GEngine->AddOnScreenDebugMessage(10, 1, FColor::Purple, x);
+}
+
+void AProyectoFinalCharacter::PlaceTrap(){
+	GEngine->AddOnScreenDebugMessage(11, 1, FColor::Purple, FString("NOP"));
+	if(selected_trap_ == 1){
+		Tarr_->PlaceTrap();
+	} else if(selected_trap_ == 2){
+		Archer_->PlaceTrap();
+	}
+}
+
+void AProyectoFinalCharacter::CancelTrap(){
+	if(aiming_trap_ != nullptr){
+		aiming_trap_->Deactivate();
+	}
 }
 
 void AProyectoFinalCharacter::TurnAtRate(float Rate)

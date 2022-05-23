@@ -13,5 +13,4 @@ UCLASS()
 class PROYECTOFINAL_API ATarrTrapPlaceholder : public ATrapPlaceholder
 {
 	GENERATED_BODY()
-	
 };

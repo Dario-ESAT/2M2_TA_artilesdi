@@ -32,3 +32,8 @@ void ATrap::Tick(float DeltaTime)
 
 }
 
+void ATrap::Deactivate(){
+	active_ = false;
+	SetActorLocation(unactive_loc_);
+}
+
