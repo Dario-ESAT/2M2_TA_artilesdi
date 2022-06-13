@@ -1,7 +1,7 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
-#include "TrapPlaceholder.h"
 #include "ProyectoFinalCharacter.h"
+#include "TrapPlaceholder.h"
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
@@ -93,7 +93,7 @@ void AProyectoFinalCharacter::Tick(float DeltaTime) {
 		//DrawDebugLine(GetOwner()->GetWorld(), origin, end,FColor::Blue, false, -1.0f, (uint8)'\000', 3.0f);
 		if (GetWorld()->LineTraceSingleByProfile(hit,origin,end, FName("BlockAll"))) {
 			if(hit.GetActor()->IsA(ATrap::StaticClass())){
-				aiming_trap_ = (dynamic_cast<ATrap*>(hit.GetActor()));
+				aiming_trap_ = dynamic_cast<ATrap*>(hit.GetActor());
 			} else if ((hit.Normal - FVector(0.0f,0.0f,1.0f)).IsNearlyZero()) {
 				//GEngine->AddOnScreenDebugMessage(4, 0.1f, FColor::Cyan, FString("Suelo"));
 				aiming_trap_ = nullptr;

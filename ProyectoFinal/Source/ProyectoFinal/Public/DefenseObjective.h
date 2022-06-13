@@ -6,11 +6,12 @@
 #include "GameFramework/Actor.h"
 #include "DefenseObjective.generated.h"
 
+class AEnemy_AI;
+
 UCLASS()
 class PROYECTOFINAL_API ADefenseObjective : public AActor
 {
 	GENERATED_BODY()
-
 public:
 
 	UPROPERTY(EditAnywhere)
@@ -19,10 +20,10 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Tonterias")
 	UStaticMeshComponent* SMComp_;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Stats")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Stats")
 	int max_hp_;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Stats")
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Stats")
 	int hp_;
 public:	
 	// Sets default values for this actor's properties

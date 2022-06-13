@@ -17,12 +17,16 @@ class PROYECTOFINAL_API AEnemySpawner : public AActor
 public:	
 	// Sets default values for this actor's properties
 	AEnemySpawner();
+	struct FTimerHandle myTimerHandle;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Tonterias")
 	UStaticMeshComponent* SMComp_;
 
 	UPROPERTY(EditAnywhere, Category = Placeholder)
 	TSubclassOf<AEnemy_AI> enemy_;
+
+	UPROPERTY(EditAnywhere, Category = Placeholder)
+		USceneComponent* enemy_unactive_loc;
 
 	TArray<AEnemy_AI*> enemy_arr_;
 
@@ -49,5 +53,8 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	void SpawnEnemies();
+	void GenerateEnemies();
+
+	UFUNCTION()
+	void SpawnEnemy();
 };

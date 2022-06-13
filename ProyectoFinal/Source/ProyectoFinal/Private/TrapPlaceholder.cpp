@@ -45,8 +45,8 @@ void ATrapPlaceholder::GenerateTraps(){
 		ATrap* new_trap = GetWorld()->SpawnActor<ATrap>(trap_, GetActorLocation(), FRotator());
 		trap_arr_.Add(new_trap);
 		new_trap->id_ = i;
-		new_trap->SetActorLocation(original_loc_);
 		new_trap->unactive_loc_ = original_loc_;
+		new_trap->Deactivate();
 	}
 }
 
@@ -83,12 +83,13 @@ void ATrapPlaceholder::SetToOriginalLoc(){
 
 void ATrapPlaceholder::PlaceTrap(){
 	if(number_collisioned <= 0){
-		GEngine->AddOnScreenDebugMessage(11, 1, FColor::Purple, FString("yep"));
+		GEngine->AddOnScreenDebugMessage(11, 1, FColor::Purple, FString("Placed"));
 		for(int i = 0; i < max_traps_; i++){
 			ATrap* trap = trap_arr_[i];
 			if(!trap->active_){
 				trap->SetActorLocation(GetActorLocation());
-				trap->active_ = true;
+				trap->Activate();
+				number_collisioned = 0;
 				return;
 			}
 		}

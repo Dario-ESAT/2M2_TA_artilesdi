@@ -16,6 +16,7 @@ ATrap::ATrap()
 		);
 	
 	RootComponent = SMComp_;
+	active_ = false;
 }
 
 // Called when the game starts or when spawned
@@ -35,5 +36,9 @@ void ATrap::Tick(float DeltaTime)
 void ATrap::Deactivate(){
 	active_ = false;
 	SetActorLocation(unactive_loc_);
+}
+
+void ATrap::Activate(){
+	active_ = true;
 }
 

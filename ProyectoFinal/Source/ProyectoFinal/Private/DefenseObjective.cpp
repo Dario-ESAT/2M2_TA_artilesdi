@@ -2,8 +2,10 @@
 
 
 #include "DefenseObjective.h"
-#include "Components/SphereComponent.h"
 #include "Enemy_AI.h"
+#include "Components/SphereComponent.h"
+#include "Kismet/GameplayStatics.h"
+
 
 // Sets default values
 ADefenseObjective::ADefenseObjective()
@@ -28,8 +30,15 @@ ADefenseObjective::ADefenseObjective()
 void ADefenseObjective::BeginOverlap(UPrimitiveComponent* OveralappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult){
 	//FString x = FString::Printf(TEXT("%s"), "Colision");
 	GEngine->AddOnScreenDebugMessage(15, 4, FColor::Purple, "Colision");
-	/*if(OtherActor->IsA(AEnemy_AI::StaticClass())){
-	}*/
+	if(OtherActor->IsA(AEnemy_AI::StaticClass())){
+		AEnemy_AI* enemy = dynamic_cast<AEnemy_AI*>(OtherActor);
+		enemy->Die();
+		hp_--;
+
+		if(hp_<1){
+			UGameplayStatics::OpenLevel(GetWorld(), "StartMenu");
+		}
+	}
 }
 
 // Called when the game starts or when spawned

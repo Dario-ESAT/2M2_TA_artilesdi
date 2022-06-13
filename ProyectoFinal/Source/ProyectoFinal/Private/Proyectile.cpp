@@ -2,26 +2,53 @@
 
 
 #include "Proyectile.h"
+#include "GameFramework/ProjectileMovementComponent.h"
+#include "Enemy_AI.h"
+#include "Components/SphereComponent.h"
+#include "Components/StaticMeshComponent.h"
 
-// Sets default values
+
 AProyectile::AProyectile()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
-
-}
-
-// Called when the game starts or when spawned
-void AProyectile::BeginPlay()
-{
-	Super::BeginPlay();
+	PrimaryActorTick.bCanEverTick = false;
+	CollisionComp = CreateDefaultSubobject<USphereComponent>(TEXT("SphereComp"));
+	CollisionComp->InitSphereRadius(15.0f);
+	CollisionComp->BodyInstance.SetCollisionProfileName("Projectile");
 	
+	CollisionComp->OnComponentHit.AddDynamic(this, &AProyectile::OnHit);		// set up a notification for when this component hits something blocking
+
+	CollisionComp->SetWalkableSlopeOverride(FWalkableSlopeOverride(WalkableSlope_Unwalkable, 0.f));
+	CollisionComp->CanCharacterStepUpOn = ECB_No;
+
+	RootComponent = CollisionComp;
+
+	SMComp_ = CreateDefaultSubobject<UStaticMeshComponent>(
+		TEXT("SMComp")
+		);
+
+	SMComp_->SetupAttachment(CollisionComp);
+
+	ProjectileMovement = CreateDefaultSubobject<UProjectileMovementComponent>(TEXT("ProjectileComp"));
+	ProjectileMovement->UpdatedComponent = CollisionComp;
+	ProjectileMovement->InitialSpeed = 3000.f;
+	ProjectileMovement->MaxSpeed = 3000.f;
+	ProjectileMovement->bRotationFollowsVelocity = true;
+	ProjectileMovement->bShouldBounce = true;
+
+	// Die after 3 seconds by default
+	InitialLifeSpan = 3.0f;
+	dmg_ = 10.0f;
 }
 
-// Called every frame
-void AProyectile::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
+void AProyectile::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit){
+	if(OtherActor != nullptr){
+		if(OtherActor->IsA(AEnemy_AI::StaticClass())){
+			AEnemy_AI* enemy = Cast<AEnemy_AI>(OtherActor);
+			enemy->TakeDmg(dmg_);
+		}
 
+		Destroy();
+	}
 }
+
 
